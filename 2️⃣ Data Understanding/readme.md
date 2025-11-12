@@ -45,3 +45,63 @@ Sugiro que nosso **Sprint 1** tenha como objetivo a **exploração e confirmaç�
 **Para seguirmos em frente, preciso que o time valide:**
 
 1.  O plano de ação para o Sprint 1 (a exploração inicial das bases de dados) parece claro e exequível?
+
+---
+
+## **Relatório de Progresso – Fase de Data Understanding (CRISP-DM)**
+
+### **Resumo da Etapa Anterior**
+
+A equipe concluiu com êxito a fase de **Business Understanding**, consolidando um tema sólido e perguntas de pesquisa bem definidas. O levantamento inicial de fontes, conduzido pelo Scrum Master, destacou o valor das bases de dados do **BPstat** e do **Portal Europeu de Dados**, estabelecendo uma base consistente para a próxima etapa.
+
+---
+
+### **Objetivo da Fase Atual**
+
+Inicia-se a Fase 2 do CRISP-DM – **Data Understanding**, cujo objetivo é explorar, avaliar e documentar a disponibilidade e a qualidade das fontes de dados identificadas. O produto final dessa etapa será um **Dicionário de Dados inicial** e um **Relatório de Viabilidade**, que indicarão as possibilidades de resposta às perguntas de pesquisa com base nas fontes acessadas.
+
+---
+
+### **Estrutura de Trabalho**
+
+Foi criado um **Épico no Kanban** intitulado **[DU-01] Exploração e Confirmação das Fontes de Dados**, com tasks distribuídas entre os cinco membros da equipe, considerando diferentes níveis de complexidade e competências.
+
+---
+
+### **Critérios de Conclusão (Definition of Done)**
+
+* Todas as fontes prioritárias (**INE**, **Pordata**, **AIMA**) foram acessadas e os datasets relevantes identificados.
+* O **Log de Fontes** foi completado com URL, data de acesso e descrição de cada dataset.
+* Foi produzido um **Relatório de Viabilidade** inicial.
+* Os primeiros datasets foram armazenados na pasta `data/raw/` do repositório do projeto.
+
+---
+
+### **Tarefas Definidas**
+
+**Nível 1 – Baixa Complexidade**
+
+* **[DU-01-A]** Criação do Log de Fontes e estrutura de pastas do repositório.
+* **[DU-01-B]** Exploração e documentação dos relatórios do AIMA (RIFA dos últimos 5 anos).
+
+**Nível 2 – Média Complexidade**
+
+* **[DU-01-C]** Exploração guiada na **Pordata**, exportando séries temporais relevantes.
+* **[DU-01-D]** Investigação de fontes secundárias no **BPstat** e **data.europa.eu**.
+
+**Nível 3 – Alta Complexidade**
+
+* **[DU-01-E]** Acesso e análise dos **microdados do INE** (Censos 2021 e Inquérito ao Emprego).
+* **[DU-01-F]** Consolidação do **Relatório de Viabilidade** com base nos resultados das tasks anteriores.
+
+---
+
+### **Distribuição e Priorização**
+
+1. O Épico **[DU-01]** foi movido para a coluna **“In Progress”** do Kanban.
+2. A **Task 2.1** é prioritária por ser a base estrutural das demais.
+3. As **Tasks 2.2, 2.3 e 2.4** serão executadas em paralelo.
+4. A **Task 2.5** requer maior familiaridade técnica e será atribuída a um membro com experiência em acesso a microdados.
+5. A **Task 2.6** será finalizada após a conclusão das demais, consolidando o relatório.
+
+---
