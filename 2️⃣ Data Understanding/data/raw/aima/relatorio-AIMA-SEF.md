@@ -120,8 +120,6 @@ A relevância da atividade profissional na concessão de títulos de residência
 
 Em termos de fluxos de investimento, o regime de **Autorização de Residência para Atividade de Investimento (ARI)** resultou na concessão de **1.281** processos com decisão favorável em 2022, sendo a compra de imóveis o principal tipo de investimento (1.008 casos). Em 2023, foram concedidas **2.901** ARIs, e em 2024, **2.081** ARIs. As principais nacionalidades a receberem ARI em 2024 foram os Estados Unidos da América (567), China (306), Reino Unido (234), Brasil (219) e Índia (199).
 
-Obrigado pela sua requisição. Como analista de dados especializado em estatísticas sociodemográficas portuguesas, e restringindo a resposta exclusivamente aos dados contidos nas fontes oficiais fornecidas (Relatórios RIFA 2020, 2021, 2022 e RMA 2023, 2024), devo fazer uma declaração inicial crítica sobre a disponibilidade de dados.
-
 ### Declaração sobre a Disponibilidade de Dados
 
 O escopo estatístico solicitado foca-se na **Evolução do Nível de Escolaridade** (Q1, Q3, Q4) e na **Distribuição Setorial da População Imigrante Ativa por CAE Rev.3** (Q2, Q3).
