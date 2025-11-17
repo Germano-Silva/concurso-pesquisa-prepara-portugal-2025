@@ -142,7 +142,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 - [**Gustavo**](https://github.com/waltrickme)
 - [**Samuel**](https://github.com/samuxka)
 - [**Tabata**](https://github.com/zarditab)
-- [**Clésia**](https://github.com/clesiabarros)
 
 ### Agradecimentos:
 - **Prepara Portugal** - Organização do concurso
