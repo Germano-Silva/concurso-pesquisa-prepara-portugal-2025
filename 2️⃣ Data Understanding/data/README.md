@@ -55,6 +55,10 @@
 | Fonte  | URL | Data de acesso | Dataset Encontrado | Váriaveis relevantes | Observações | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | BPstat |[BPstat](https://bpstat.bportugal.pt/dados/explorer)|16/11/2025|Sim|População, emprego e desemprego |**-Informações em formatos de Gráficos e Tabelas**; Foram encontrato serie de dados e varias formas de download ref. a população, ensino e mercado de trabalho.
+| European Data | [EuropeanData](https://data.europa.eu/data/datasets/68708f688c1cd0da86633402?locale=en) | 17/11/2025 | Sim | Nivel de escolaridadde mais elevado | O dataset so esta disponivel em .json; |
+| European Data | [EuropeanData](https://data.europa.eu/data/datasets/687091be8c1cd0da866334bb?locale=en) | 17/11/2025 | Sim | Setor de atividade economica | O dataset so esta disponivel em .json |
+| European Data | [EuropeanData](https://data.europa.eu/data/datasets/687092338c1cd0da866334de?locale=en) | 17/11/2025 | Sim | Grupo etario, Nivel de escolaridade mais elevado | O dataset so esta disponivel em .json; |
+| European Data | [EuropeanData](https://data.europa.eu/data/datasets/687093dc8c1cd0da8663355d?locale=en) | 17/11/2025 | Sim | Populacao residente com ensino superior completo | O dataset so esta disponivel em .json |
 
 ### **Tabela [DU-01-C] Exploração guiada na Pordata, exportando séries temporais relevantes**
 
