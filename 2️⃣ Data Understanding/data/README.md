@@ -48,3 +48,11 @@
 | AIMA (RMA_2023)|[AIMA](https://aima.gov.pt/pt/a-aima/relatorios-de-migracoes-e-asilo)|14/11/2025|-|-|**-Informações em formatos de Gráficos e Tabelas**; Estrangeiros residentes; Concessões de novos títulos; Principais motivos para residência; População estrangeira potencialmente ativa; Concessão de títulos por motivo;|
 | AIMA (RMA_2024)|[AIMA](https://aima.gov.pt/pt/a-aima/relatorios-de-migracoes-e-asilo)|14/11/2025|-|-|**-Informações em formatos de Gráficos e Tabelas**; <br>***-Dados sobre evolução da população residente diferentes dos dados de relatórios anteriores;***<br> Estrangeiros residentes; Concessões de novos títulos; Principais motivos para residência; População estrangeira potencialmente ativa; Concessão de títulos por motivo; Atividade Profissional por motivo;|
  
+
+--
+
+### Tabela [DU-01-D] Investigação de Fontes Secundárias (BPstat e European Data) 
+
+| Fonte  | URL | Data de acesso | Dataset Encontrado | Váriaveis relevantes | Observações | 
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| BPstat |[BPstat](https://bpstat.bportugal.pt/dados/explorer)|16/11/2025|Sim|População, emprego e desemprego |**-Informações em formatos de Gráficos e Tabelas**; Foram encontrato serie de dados e varias formas de download ref. a população, ensino e mercado de trabalho.
