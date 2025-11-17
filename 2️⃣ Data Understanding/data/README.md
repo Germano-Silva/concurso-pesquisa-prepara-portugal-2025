@@ -55,3 +55,17 @@
 | Fonte  | URL | Data de acesso | Dataset Encontrado | Váriaveis relevantes | Observações | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | BPstat |[BPstat](https://bpstat.bportugal.pt/dados/explorer)|16/11/2025|Sim|População, emprego e desemprego |**-Informações em formatos de Gráficos e Tabelas**; Foram encontrato serie de dados e varias formas de download ref. a população, ensino e mercado de trabalho.
+
+### **Tabela [DU-01-C] Exploração guiada na Pordata, exportando séries temporais relevantes**
+
+| Fonte | URL | Data de acesso | Dataset Encontrado | Variáveis relevantes | Observações |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Pordata | [População residente](https://www.pordata.pt/pt/estatisticas/populacao/populacao-residente/populacao-residente-por-sexo-e-grupo-etario) | 17/11/2025 | Sim | População total, sexo, grupo etário | **Dados dos últimos anos**; Estrutura demográfica atual |
+| Pordata | [Variação populacional](https://www.pordata.pt/pt/estatisticas/populacao/populacao-residente/variacao-populacional) | 17/11/2025 | Sim | Crescimento populacional, saldo natural, saldo migratório | **Dados recentes**; Dinâmica populacional atual |
+| Pordata | [Taxas de crescimento](https://www.pordata.pt/pt/estatisticas/populacao/populacao-residente/taxas-de-crescimento-da-populacao-residente-natural-e) | 17/11/2025 | Sim | Taxa de crescimento total, natural e migratório | **Indicadores recentes**; Tendências atuais |
+| Pordata | [Alunos ensino superior](https://www.pordata.pt/pt/estatisticas/educacao/ensino-superior/alunos-inscritos-no-ensino-superior-por-nacionalidade) | 17/11/2025 | Sim | Número de alunos, nacionalidade, ciclo de estudos | **Dados atuais**; Situação recente do ensino superior |
+| Pordata | [População empregada](https://www.pordata.pt/pt/estatisticas/emprego/populacao-empregada/populacao-empregada-por-sexo-e-atividade-economica) | 17/11/2025 | Sim | Setor económico, sexo, nível de escolaridade | **Dados recentes**; Estrutura atual do emprego |
+| Pordata | [Taxas de emprego](https://www.pordata.pt/pt/estatisticas/emprego/populacao-empregada/taxa-de-emprego-por-sexo-grupo-etario-e-nacionalidade) | 17/11/2025 | Sim | Taxa de emprego, sexo, grupo etário, nacionalidade | **Indicadores atuais**; Ocupação laboral recente |
+| Pordata | [População desempregada](https://www.pordata.pt/pt/estatisticas/emprego/populacao-desempregada/populacao-desempregada-por-sexo-grupo-etario-e) | 17/11/2025 | Sim | População desempregada, sexo, grupo etário, escolaridade | **Dados recentes**; Caracterização atual do desemprego |
+| Pordata | [Taxas de desemprego](https://www.pordata.pt/pt/estatisticas/emprego/populacao-desempregada/taxa-de-desemprego-por-sexo-grupo-etario-e) | 17/11/2025 | Sim | Taxa de desemprego, sexo, grupo etário, nacionalidade | **Indicadores atuais**; Situação recente do desemprego |
+| Pordata | [Emprego temporário](https://www.pordata.pt/pt/estatisticas/emprego/populacao-empregada/emprego-temporario-por-sexo-grupo-etario-e-nacionalidade) | 17/11/2025 | Sim | Trabalho temporário, percentagem, características demográficas | **Dados recentes**; Precaridade laboral atual |
