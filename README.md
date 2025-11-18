@@ -139,9 +139,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ### Equipe do Projeto:
 - [**Germano Silva**](https://github.com/Germano-Silva)
-- [**Gustavo**](https://github.com/waltrickme)
-- [**Samuel**](https://github.com/samuxka)
-- [**Tabata**](https://github.com/zarditab)
+- [**Gustavo Waltrick**](https://github.com/waltrickme)
+- [**Samuel Oliveira**](https://github.com/samuxka)
+- [**Tabata Zardi**](https://github.com/zarditab)
 
 ### Agradecimentos:
 - **Prepara Portugal** - Organização do concurso
