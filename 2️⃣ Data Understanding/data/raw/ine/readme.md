@@ -48,4 +48,4 @@ ISSN 0872-6493. ISBN 978-989-25-0619-7
 - ✅ Metadatos de citação completa
 - ✅ Plataformas de visualização (Censos2021, GeoCensos)
 - ✅ Disponivel no dia 20/11/2025 no [link 🔗](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=65586079&PUBLICACOESmodo=2).
-- ✅ Arquivo CSV disponivel na [📁 INE - Censos2021_csv](Germano-Silva/concurso-pesquisa-prepara-portugal-2025/2️⃣ Data Understanding/data/raw/ine/Censos2021_csv).
+- ✅ Arquivo CSV disponivel na [📁 INE - Censos2021_csv](https://github.com/Germano-Silva/concurso-pesquisa-prepara-portugal-2025/tree/main/2%EF%B8%8F%E2%83%A3%20Data%20Understanding/data/raw/ine/Censos2021_csv).
