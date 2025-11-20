@@ -97,3 +97,53 @@ ISBN 978-989-25-0633-3
 - ✅ Links diretos para download dos arquivos
 - ✅ Metadatos completos para citação acadêmica
 - ✅ URL oficial da publicação no portal do INE
+
+---
+
+# Censos - O que nos dizem os Censos sobre estruturas familiares - 2021
+**Ano de Edição:** 2023
+
+## Resumo
+Esta publicação apresenta uma análise descritiva das estruturas familiares, com base nos dados recolhidos nos **Censos 2021** - XVI Recenseamento Geral da População. VI Recenseamento Geral da Habitação, nomeadamente:
+
+- Breve descrição dos principais conceitos e o motivo da substituição do conceito de família clássica pelo conceito de agregado doméstico privado
+- Caracterização dos agregados domésticos privados, com especial enfoque nos agregados domésticos unipessoais
+- Análise dos núcleos familiares nas suas diferentes configurações:
+  - Casais com filhos
+  - Monoparentais
+  - Reconstituídos
+
+**URL da publicação:** https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=66321126&PUBLICACOESmodo=2
+
+## Publicação
+| Documento | Formato | Tamanho | Link |
+|-----------|---------|---------|------|
+| Análise das Estruturas Familiares | [PDF](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=595746151&att_display=n&att_download=y) | 3538 Kb | Download |
+
+## Quadros
+| Formato | Tamanho | Link |
+|---------|---------|------|
+| [Excel (XLSX)](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=595746223&att_display=n&att_download=y) | 144 Kb | Download |
+| [ZIP CSV](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=595746243&att_display=n&att_download=y) | 40 Kb | Download |
+
+---
+
+### Como citar este documento:
+Instituto Nacional de Estatística - Censos 2021. O que nos dizem os Censos sobre as estruturas familiares.  
+Lisboa : INE, 2023. Disponível na www: <https://www.ine.pt/xurl/pub/66321126>.  
+ISBN 978-989-25-0639-5
+
+---
+
+**Registo de informações para futura análise de dados:**
+- ✅ Dados sobre estruturas familiares e agregados domésticos (2021)
+- ✅ Conceitos atualizados: substituição de "família clássica" por "agregado doméstico privado"
+- ✅ Análise detalhada de agregados unipessoais
+- ✅ Configurações de núcleos familiares: casais com filhos, monoparentais e reconstituídos
+- ✅ Publicação de 2023 - dados mais recentes sobre estruturas familiares
+- ✅ Links diretos para download dos arquivos
+- ✅ Metadatos completos para citação acadêmica
+- ✅ URL oficial da publicação no portal do INE
+
+---
+
