@@ -1,4 +1,18 @@
-# Censos - Resultados definitivos - 2021
+# Dados INE - Censos 2021
+
+## Índice
+
+1. [Censos - Resultados definitivos - 2021](#censos---resultados-definitivos---2021)
+2. [Censos - População de nacionalidade estrangeira residente em Portugal - 2021](#censos---o-que-nos-dizem-os-censos-sobre-a-população-de-nacionalidade-estrangeira-residente-em-portugal---2021)
+3. [Censos - Estruturas familiares - 2021](#censos---o-que-nos-dizem-os-censos-sobre-estruturas-familiares---2021)
+4. [Censos - Habitação - 2021](#censos---o-que-nos-dizem-os-censos-sobre-a-habitação---2021)
+5. [Censos - Dinâmicas territoriais - 2021](#censos---o-que-nos-dizem-os-censos-sobre-dinâmicas-territoriais---2021)
+6. [Principais tendências da última década](#censos-2021---divulgação-dos-resultados-definitivos---principais-tendências-ocorridas-em-portugal-na-última-década)
+
+---
+
+# Censos - Resultados definitivos - 2021 
+**Dados:** [Censos2021_Definitivos](./Censos2021_Definitivos/) | [Censos2021_csv](./Censos2021_csv/)  
 **Ano de Edição:** 2022
 
 ## Resumo
@@ -39,20 +53,21 @@ ISSN 0872-6493. ISBN 978-989-25-0619-7
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Dados populacionais definitivos de 2021
-- ✅ Comparação com censos de 2011
-- ✅ Características demográficas, socioeconómicas e habitacionais
-- ✅ Dados até nível de freguesia
-- ✅ Múltiplos formatos disponíveis (PDF, XLSX, CSV)
-- ✅ Infografias temáticas
-- ✅ Metadatos de citação completa
-- ✅ Plataformas de visualização (Censos2021, GeoCensos)
-- ✅ Disponivel no dia 20/11/2025 no [link 🔗](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=65586079&PUBLICACOESmodo=2).
-- ✅ Arquivo CSV disponivel na [📁 INE - Censos2021_csv](https://github.com/Germano-Silva/concurso-pesquisa-prepara-portugal-2025/tree/main/2%EF%B8%8F%E2%83%A3%20Data%20Understanding/data/raw/ine/Censos2021_csv).
+-  Dados populacionais definitivos de 2021
+-  Comparação com censos de 2011
+-  Características demográficas, socioeconómicas e habitacionais
+-  Dados até nível de freguesia
+-  Múltiplos formatos disponíveis (PDF, XLSX, CSV)
+-  Infografias temáticas
+-  Metadatos de citação completa
+-  Plataformas de visualização (Censos2021, GeoCensos)
+-  Disponivel no dia 20/11/2025 no [link](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=65586079&PUBLICACOESmodo=2).
+-  Arquivo CSV disponivel na [INE - Censos2021_csv](https://github.com/Germano-Silva/concurso-pesquisa-prepara-portugal-2025/tree/main/2%EF%B8%8F%E2%83%A3%20Data%20Understanding/data/raw/ine/Censos2021_csv).
 
 ---
 
 # Censos - O que nos dizem os Censos sobre a população de nacionalidade estrangeira residente em Portugal - 2021
+**Dados:** [Censos2021_População estrangeira](./Censos2021_População%20estrangeira/)  
 **Ano de Edição:** 2022
 
 ## Resumo
@@ -90,17 +105,18 @@ ISBN 978-989-25-0633-3
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Dados específicos sobre população estrangeira residente em Portugal (2021)
-- ✅ Análise multidimensional: demografia, socioeconomia, mercado de trabalho
-- ✅ Dados sobre enquadramento familiar e condições habitacionais
-- ✅ Publicação temática da série de estudos dos Censos 2021
-- ✅ Links diretos para download dos arquivos
-- ✅ Metadatos completos para citação acadêmica
-- ✅ URL oficial da publicação no portal do INE
+-  Dados específicos sobre população estrangeira residente em Portugal (2021)
+-  Análise multidimensional: demografia, socioeconomia, mercado de trabalho
+-  Dados sobre enquadramento familiar e condições habitacionais
+-  Publicação temática da série de estudos dos Censos 2021
+-  Links diretos para download dos arquivos
+-  Metadatos completos para citação acadêmica
+-  URL oficial da publicação no portal do INE
 
 ---
 
 # Censos - O que nos dizem os Censos sobre estruturas familiares - 2021
+**Dados:** [Censos2021_EstruturasFamiliares](./Censos2021_EstruturasFamiliares/)  
 **Ano de Edição:** 2023
 
 ## Resumo
@@ -136,18 +152,19 @@ ISBN 978-989-25-0639-5
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Dados sobre estruturas familiares e agregados domésticos (2021)
-- ✅ Conceitos atualizados: substituição de "família clássica" por "agregado doméstico privado"
-- ✅ Análise detalhada de agregados unipessoais
-- ✅ Configurações de núcleos familiares: casais com filhos, monoparentais e reconstituídos
-- ✅ Publicação de 2023 - dados mais recentes sobre estruturas familiares
-- ✅ Links diretos para download dos arquivos
-- ✅ Metadatos completos para citação acadêmica
-- ✅ URL oficial da publicação no portal do INE
+-  Dados sobre estruturas familiares e agregados domésticos (2021)
+-  Conceitos atualizados: substituição de "família clássica" por "agregado doméstico privado"
+-  Análise detalhada de agregados unipessoais
+-  Configurações de núcleos familiares: casais com filhos, monoparentais e reconstituídos
+-  Publicação de 2023 - dados mais recentes sobre estruturas familiares
+-  Links diretos para download dos arquivos
+-  Metadatos completos para citação acadêmica
+-  URL oficial da publicação no portal do INE
 
 ---
 
 # Censos - O que nos dizem os Censos sobre a habitação - 2021
+**Dados:** [Censos2021_Habitacao](./Censos2021_Habitacao/)  
 **Ano de Edição:** 2023
 
 ## Resumo
@@ -182,19 +199,20 @@ ISBN 978-989-25-0635-7
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Dados completos sobre o parque habitacional português (2021)
-- ✅ Características físicas dos edifícios e alojamentos
-- ✅ Indicadores de necessidades de reparação e manutenção
-- ✅ Dados sobre propriedade e formas de ocupação
-- ✅ Análise de encargos com habitação das famílias
-- ✅ Quarto número da série de estudos temáticos dos Censos 2021
-- ✅ Links para base de dados completa e plataforma Censos2021
-- ✅ Metadatos completos para citação acadêmica
-- ✅ URL oficial da publicação no portal do INE
+-  Dados completos sobre o parque habitacional português (2021)
+-  Características físicas dos edifícios e alojamentos
+-  Indicadores de necessidades de reparação e manutenção
+-  Dados sobre propriedade e formas de ocupação
+-  Análise de encargos com habitação das famílias
+-  Quarto número da série de estudos temáticos dos Censos 2021
+-  Links para base de dados completa e plataforma Censos2021
+-  Metadatos completos para citação acadêmica
+-  URL oficial da publicação no portal do INE
 
 ---
 
 # Censos - O que nos dizem os Censos sobre dinâmicas territoriais - 2021
+**Dados:** [Censos2021_Dinâmicas_Territoriais](./Censos2021_Dinâmicas_Territoriais/)  
 **Ano de Edição:** 2023
 
 ## Resumo
@@ -235,15 +253,15 @@ e-ISBN 978-989-25-0636-4; ISBN 978-989-25-0674-6
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Dados sobre dinâmicas territoriais e ocupação do espaço (2021)
-- ✅ Análise da mobilidade territorial e alterações de residência
-- ✅ Padrões de deslocação casa-trabalho e organização funcional do território
-- ✅ Dados com detalhe geográfico: NUTS III, municípios e freguesias
-- ✅ Comparação temporal com Censos 2011 para análise evolutiva
-- ✅ Arquivos de dados extensos (Excel: 15MB, PDF: 17MB)
-- ✅ Links diretos para download dos arquivos
-- ✅ Metadatos completos para citação acadêmica
-- ✅ URL oficial da publicação no portal do INE
+-  Dados sobre dinâmicas territoriais e ocupação do espaço (2021)
+-  Análise da mobilidade territorial e alterações de residência
+-  Padrões de deslocação casa-trabalho e organização funcional do território
+-  Dados com detalhe geográfico: NUTS III, municípios e freguesias
+-  Comparação temporal com Censos 2011 para análise evolutiva
+-  Arquivos de dados extensos (Excel: 15MB, PDF: 17MB)
+-  Links diretos para download dos arquivos
+-  Metadatos completos para citação acadêmica
+-  URL oficial da publicação no portal do INE
 
 ---
 
@@ -288,14 +306,13 @@ O Portal de Estatísticas Oficiais do INE disponibiliza uma área dedicada à di
 ---
 
 **Registo de informações para futura análise de dados:**
-- ✅ Síntese das principais tendências demográficas 2011-2021
-- ✅ Dados oficiais definitivos dos Censos 2021
-- ✅ Análise comparativa da última década
-- ✅ Tendências em três dimensões principais: população, famílias e habitação
-- ✅ Destaque para mudanças estruturais na sociedade portuguesa
-- ✅ Links para documento síntese e publicação completa
-- ✅ Portal dedicado com produtos diversificados de difusão
-- ✅ Data de referência: 19 de abril de 2021
+-  Síntese das principais tendências demográficas 2011-2021
+-  Dados oficiais definitivos dos Censos 2021
+-  Análise comparativa da última década
+-  Tendências em três dimensões principais: população, famílias e habitação
+-  Destaque para mudanças estruturais na sociedade portuguesa
+-  Links para documento síntese e publicação completa
+-  Portal dedicado com produtos diversificados de difusão
+-  Data de referência: 19 de abril de 2021
 
 ---
-
