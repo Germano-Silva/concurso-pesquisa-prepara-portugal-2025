@@ -147,3 +147,47 @@ ISBN 978-989-25-0639-5
 
 ---
 
+# Censos - O que nos dizem os Censos sobre a habitação - 2021
+**Ano de Edição:** 2023
+
+## Resumo
+A publicação apresenta uma análise exploratória sobre o Parque Habitacional, baseada nos resultados do **Censos 2021** - XVI Recenseamento Geral da População. VI Recenseamento Geral da Habitação.
+
+Pretende-se caracterizar o parque habitacional nas suas diversas dimensões, nomeadamente ao nível:
+- Características dos edifícios e dos alojamentos
+- Necessidades de reparação dos edifícios
+- Forma de ocupação e regime de propriedade dos alojamentos familiares clássicos
+- Encargos com a habitação
+
+Esta edição é o quarto número da série de estudos, no âmbito dos Censos 2021, que procura aprofundar algumas das dimensões censitárias mais relevantes ao nível da população, dos agregados familiares e da habitação.
+
+**Recursos adicionais disponíveis:**
+- Elevado número de indicadores estatísticos relativos ao Parque Habitacional na [Base de Dados - Construção e Habitação](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados&bdpagenumber=1&bdind_por_pagina=15&bdfreetext=Palavra(s)%20a%20encontrar&bdtemas=1610&bdnivelgeo=00&contexto=bd&atributoordenar=null&atributoordem=null&bdsubtemas=161016)
+- Plataforma dedicada: [Censos2021](https://censos.ine.pt/xportal/xmain?xpgid=censos21_main&xpid=CENSOS21&xlang=pt)
+
+**URL da publicação:** https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=66323830&PUBLICACOESmodo=2
+
+## Publicação
+| Documento | Formato | Tamanho | Link |
+|-----------|---------|---------|------|
+| Análise da Habitação | [PDF](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=597942079&att_display=n&att_download=y) | 3206 Kb | Download |
+
+---
+
+### Como citar este documento:
+Instituto Nacional de Estatística - Censos 2021. O que nos dizem os Censos sobre a habitação.  
+Lisboa : INE, 2023. Disponível na www: <https://www.ine.pt/xurl/pub/66323830>.  
+ISBN 978-989-25-0635-7
+
+---
+
+**Registo de informações para futura análise de dados:**
+- ✅ Dados completos sobre o parque habitacional português (2021)
+- ✅ Características físicas dos edifícios e alojamentos
+- ✅ Indicadores de necessidades de reparação e manutenção
+- ✅ Dados sobre propriedade e formas de ocupação
+- ✅ Análise de encargos com habitação das famílias
+- ✅ Quarto número da série de estudos temáticos dos Censos 2021
+- ✅ Links para base de dados completa e plataforma Censos2021
+- ✅ Metadatos completos para citação acadêmica
+- ✅ URL oficial da publicação no portal do INE
