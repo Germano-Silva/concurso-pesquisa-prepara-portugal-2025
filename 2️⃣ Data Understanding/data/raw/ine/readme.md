@@ -246,3 +246,56 @@ e-ISBN 978-989-25-0636-4; ISBN 978-989-25-0674-6
 - ✅ URL oficial da publicação no portal do INE
 
 ---
+
+# Censos 2021 - Divulgação dos Resultados Definitivos - Principais tendências ocorridas em Portugal na última década
+**Data de divulgação:** 23 de novembro de 2022
+
+## Resumo
+O Instituto Nacional de Estatística divulgou em 23 de novembro de 2022 os **Resultados Definitivos** do XVI Recenseamento Geral da População e do VI Recenseamento Geral da Habitação - Censos 2021, referenciados a 19 de abril de 2021.
+
+Esta divulgação cumpre um dos objetivos fundamentais desta operação censitária: devolver à Sociedade um vasto conjunto de dados estatísticos que permitem melhorar o conhecimento do país, através da caracterização da população e do respetivo parque habitacional.
+
+O Portal de Estatísticas Oficiais do INE disponibiliza uma área dedicada à divulgação dos [Resultados Definitivos dos Censos 2021](https://censos.ine.pt/xportal/xmain?xpgid=censos21_produtos&xpid=CENSOS21&xlang=pt) com um conjunto diversificado de produtos de difusão.
+
+**URL do destaque:** https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=541064323&DESTAQUESmodo=2
+
+## Censos 2021 – Principais tendências ocorridas em Portugal na última década
+
+### População
+- **Decréscimo populacional de 2,1%** e acentuação dos desequilíbrios na distribuição da população pelo território
+- **Agravamento do envelhecimento populacional**: aumento expressivo da população idosa e diminuição da população jovem
+- **Aumento da representatividade** da população divorciada e da população que vive em união de facto
+- **Crescimento de 37%** da população estrangeira residente em Portugal
+- **Aumento significativo do nível de escolarização**: reforço da população com ensino superior e com ensino secundário e pós-secundário
+
+### Agregados e núcleos familiares
+- **Diminuição da dimensão média** dos agregados domésticos privados
+- **Aumento do número de pessoas que vivem sozinhas**
+- **Crescimento do número de núcleos familiares** monoparentais e de núcleos reconstituídos
+
+### Habitação
+- **Ligeiro crescimento** dos edifícios e alojamentos destinados à habitação
+- **Reforço da importância relativa da primeira habitação** em detrimento das residências secundárias e dos alojamentos vagos
+- **Aumento do arrendamento** como regime de ocupação dos alojamentos
+
+## Documento
+| Documento | Formato | Tamanho | Link |
+|-----------|---------|---------|------|
+| Principais tendências | [PDF](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=585774296&att_display=n&att_download=y) | 1335 Kb | Download |
+
+**Publicação completa:** [Consulte aqui](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=65586079&PUBLICACOESmodo=2&xlang=pt)
+
+---
+
+**Registo de informações para futura análise de dados:**
+- ✅ Síntese das principais tendências demográficas 2011-2021
+- ✅ Dados oficiais definitivos dos Censos 2021
+- ✅ Análise comparativa da última década
+- ✅ Tendências em três dimensões principais: população, famílias e habitação
+- ✅ Destaque para mudanças estruturais na sociedade portuguesa
+- ✅ Links para documento síntese e publicação completa
+- ✅ Portal dedicado com produtos diversificados de difusão
+- ✅ Data de referência: 19 de abril de 2021
+
+---
+
