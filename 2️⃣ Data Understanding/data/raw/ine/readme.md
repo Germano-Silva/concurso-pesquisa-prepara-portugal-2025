@@ -191,3 +191,58 @@ ISBN 978-989-25-0635-7
 - ✅ Links para base de dados completa e plataforma Censos2021
 - ✅ Metadatos completos para citação acadêmica
 - ✅ URL oficial da publicação no portal do INE
+
+---
+
+# Censos - O que nos dizem os Censos sobre dinâmicas territoriais - 2021
+**Ano de Edição:** 2023
+
+## Resumo
+A publicação **O que nos dizem os Censos sobre dinâmicas territoriais** apresenta uma análise exploratória dos resultados dos Censos 2021 relativos ao território e às suas dinâmicas.
+
+Este retrato do território nacional explora as seguintes temáticas:
+- Ocupação do território
+- Mobilidade territorial através das alterações de residência
+- Organização funcional dos territórios à luz das deslocações casa-trabalho
+
+Disponibiliza-se, também, o conjunto de indicadores objeto de análise, privilegiando-se o detalhe geográfico ao nível das:
+- NUTS III
+- Municípios
+- Freguesias
+
+Sempre que relevante, inclui informação que permite a comparação entre os Censos 2011 e os Censos 2021.
+
+**URL da publicação:** https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes&PUBLICACOESpub_boui=66320870&PUBLICACOESmodo=2
+
+## Publicação
+| Documento | Formato | Tamanho | Link |
+|-----------|---------|---------|------|
+| Análise das Dinâmicas Territoriais | [PDF](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=603123964&att_display=n&att_download=y) | 17496 Kb | Download |
+
+## Quadros
+| Formato | Tamanho | Link |
+|---------|---------|------|
+| [Excel (XLSX)](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=603124022&att_display=n&att_download=y) | 15004 Kb | Download |
+| [ZIP CSV](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=603127445&att_display=n&att_download=y) | 73 Kb | Download |
+
+---
+
+### Como citar este documento:
+Instituto Nacional de Estatística - Censos 2021. O que nos dizem os Censos sobre dinâmicas territoriais.  
+Lisboa : INE, 2023. Disponível na www: <https://www.ine.pt/xurl/pub/66320870>.  
+e-ISBN 978-989-25-0636-4; ISBN 978-989-25-0674-6
+
+---
+
+**Registo de informações para futura análise de dados:**
+- ✅ Dados sobre dinâmicas territoriais e ocupação do espaço (2021)
+- ✅ Análise da mobilidade territorial e alterações de residência
+- ✅ Padrões de deslocação casa-trabalho e organização funcional do território
+- ✅ Dados com detalhe geográfico: NUTS III, municípios e freguesias
+- ✅ Comparação temporal com Censos 2011 para análise evolutiva
+- ✅ Arquivos de dados extensos (Excel: 15MB, PDF: 17MB)
+- ✅ Links diretos para download dos arquivos
+- ✅ Metadatos completos para citação acadêmica
+- ✅ URL oficial da publicação no portal do INE
+
+---
