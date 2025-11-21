@@ -8,6 +8,8 @@
 4. [Censos - Habitação - 2021](#censos---o-que-nos-dizem-os-censos-sobre-a-habitação---2021)
 5. [Censos - Dinâmicas territoriais - 2021](#censos---o-que-nos-dizem-os-censos-sobre-dinâmicas-territoriais---2021)
 6. [Principais tendências da última década](#censos-2021---divulgação-dos-resultados-definitivos---principais-tendências-ocorridas-em-portugal-na-última-década)
+7. [Ficheiros de Uso Público (FUPs) - INE Portugal](#ficheiros-de-uso-público--fups---ine-portugal)
+
 
 ---
 
@@ -316,3 +318,51 @@ O Portal de Estatísticas Oficiais do INE disponibiliza uma área dedicada à di
 -  Data de referência: 19 de abril de 2021
 
 ---
+Claro! Segue um resumo em Markdown das informações fornecidas, organizado de forma clara e incluindo os links relevantes.
+
+---
+
+Claro! Segue o resumo em Markdown atualizado com o link do Google Drive fornecido.
+
+---
+
+# Ficheiros de Uso Público (FUPs) - INE Portugal
+
+## O que são os Ficheiros de Uso Público (FUPs)?
+
+Os **Ficheiros de Uso Público (FUPs)** são conjuntos de dados preparados pelo INE (Instituto Nacional de Estatística de Portugal) que contêm registos anonimizados e tratados, garantindo que não é possível identificar diretamente ou indiretamente as unidades de observação (ex: indivíduos, famílias). O seu acesso é **gratuito**, estando em conformidade com o segredo estatístico e a proteção de dados.
+
+## Enquadramento Legal
+
+De acordo com a **Lei do SEN (Sistema Estatístico Nacional) - Artigo 6º**:
+- Os dados estatísticos individuais só podem ser cedidos para **fins científicos** e sob forma **anonimizada**.
+- O acesso é restrito a **investigadores credenciados**.
+
+## FUPs Disponíveis para Download
+
+| Ficheiro | Descrição | Tamanho | Link de Download |
+| :--- | :--- | :--- | :--- |
+| **Censos 2021** | Amostra de 5% relativa a indivíduos e alojamentos. | 24.840 KB (ZIP) | [**Baixar Ficheiro**](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=635770216&att_display=n&att_download=y) |
+| **Censos 2011** | Amostra de 5% relativa a indivíduos e alojamentos. | 20.015 KB (ZIP) | [**Baixar Ficheiro**](https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=431274402&att_display=n&att_download=y) |
+
+### Conteúdo dos Ficheiros
+
+Cada ficheiro ZIP contém:
+- **Duas tabelas amostrais**:
+    1. **Alojamentos**: Dados sobre alojamentos familiares e coletivos, incluindo algumas variáveis do edifício.
+    2. **Indivíduos**: Dados dos indivíduos residentes.
+- Ambas as tabelas representam uma **amostra de 5%** dos registos.
+- Incluem uma **variável comum** que permite ligar (cruzar) as informações das duas tabelas.
+
+## Localização dos Dados para Este Projeto
+
+Os ficheiros dos Censos 2011 e 2021 já foram baixados e estão disponíveis no seguinte diretório para utilização neste projeto:
+
+[**🔗 Acessar Dados no Google Drive**](https://drive.google.com/drive/folders/1ni7tYDMvz0T51v4F0E2CUonVvaAAzwgU?usp=sharing)
+
+## Página Oficial e Condições de Utilização
+
+Para mais informações sobre as condições de acesso e utilização, visite a página oficial do INE:
+[**www.ine.pt**](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_pufs&menuBOUI=13707095&contexto=up&selTab=tab5&xlang=pt)
+
+**Nota Importante:** O download e utilização destes ficheiros implicam a **aceitação prévia das condições de utilização** definidas pelo INE.
