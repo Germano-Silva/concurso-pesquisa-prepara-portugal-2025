@@ -56,6 +56,23 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Dimensões temporais: Não temporal (referencial)
 - Variáveis relevantes: Códigos de despacho, descrição de motivos legais
 
+#### RIFA2020 - populacao-residente-distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2020
+**Estrutura:**
+- Campos principais: Faixa Etária, Total
+- Hierarquia dos dados: Distribuição etária da população estrangeira residente
+- Dimensões temporais: Dados pontuais para 2020
+- Variáveis relevantes: Idade, Total populacional de estrangeiros, população potencialmente ativa(PPA)
+
+#### RIFA2020 - concessao-titulos_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2020
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária e por gênero das concessões de títulos
+- Dimensões temporais: Dados pontuais para 2020
+- Variáveis relevantes: Idade, Gênero, concessão de títulos, população potencialmente ativa(PPA)
+
+
 ### RIFA2021_csv - Relatório de Imigração e Fronteiras 2021
 
 #### RIFA2021 - populacao-estrangeira-residente.csv
@@ -64,7 +81,7 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Campos principais: NACIONALIDADES, TOTAL, Homens, Mulheres
 - Hierarquia dos dados: Lista de nacionalidades com população estrangeira residente em Portugal por sexo
 - Dimensões temporais: Dados pontuais para 2021
-- Variáveis relevantes: Nacionalidade, gênero, total populacional
+- Variáveis relevantes: Nacionalidade, gênero, total populacional, 
 
 #### RIFA2021 - concessao-titulos-residencia.csv
 **Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2021
@@ -81,6 +98,22 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Hierarquia dos dados: Série temporal da evolução da população residente
 - Dimensões temporais: 1980-2021
 - Variáveis relevantes: Ano, número de títulos, variações percentuais
+
+#### RIFA2021 - populacao-residente-distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2021
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária da população estrangeira residente
+- Dimensões temporais: Dados pontuais para 2021
+- Variáveis relevantes: Idade, Gênero, Total populacional de estrangeiros, população potencialmente ativa(PPA)
+
+#### RIFA2021 - concessao-titulos_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2021
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária e por gênero das concessões de títulos
+- Dimensões temporais: Dados pontuais para 2020
+- Variáveis relevantes: Idade, Gênero, concessão de títulos, população potencialmente ativa(PPA)
 
 ### RIFA2022_csv - Relatório de Imigração e Fronteiras 2022
 
@@ -108,6 +141,22 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Dimensões temporais: 1980-2022
 - Variáveis relevantes: Ano, número de títulos, variações percentuais
 
+#### RIFA2022 - populacao-residente-distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2022
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária da população estrangeira residente
+- Dimensões temporais: Dados pontuais para 2022
+- Variáveis relevantes: Idade, Gênero, Total populacional de estrangeiros, população potencialmente ativa(PPA)
+
+#### RIFA2022 - concessao-titulos_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2022
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária e por gênero das concessões de títulos
+- Dimensões temporais: Dados pontuais para 2022
+- Variáveis relevantes: Idade, Gênero, concessão de títulos, população potencialmente ativa(PPA)
+
 ### RMA2023_csv - Relatório de Migração e Asilo 2023
 
 #### RMA2023 - populacao-estrangeira-residente.csv
@@ -133,6 +182,22 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Hierarquia dos dados: Série temporal da evolução da população residente
 - Dimensões temporais: 1980-2023
 - Variáveis relevantes: Ano, número de títulos, variações percentuais
+
+#### RMA2023 - populacao-residente_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2023
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária da população estrangeira residente
+- Dimensões temporais: Dados pontuais para 2023
+- Variáveis relevantes: Idade, Gênero, Total populacional de estrangeiros, população potencialmente ativa(PPA)
+
+#### RMA2023 - concessao-titulos_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2023
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária e por gênero das concessões de títulos
+- Dimensões temporais: Dados pontuais para 2023
+- Variáveis relevantes: Idade, Gênero, concessão de títulos, população potencialmente ativa(PPA)
 
 ### RMA2024_csv - Relatório de Migração e Asilo 2024
 
@@ -168,6 +233,22 @@ A análise dos datasets foi realizada através da seguinte metodologia:
 - Dimensões temporais: Dados pontuais para 2024
 - Variáveis relevantes: Tipo de atividade profissional, quantidade populacional
 
+#### RMA2024 - populacao-residente_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2024
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária da população estrangeira residente
+- Dimensões temporais: Dados pontuais para 2024
+- Variáveis relevantes: Idade, Gênero, Total populacional de estrangeiros, população potencialmente ativa(PPA)
+
+#### RMA2024 - concessao-titulos_distribuição-etaria.csv
+**Fonte:** SEF/AIMA - Relatório de Imigração e Fronteiras 2024
+**Estrutura:**
+- Campos principais: Faixa Etária, Homens, Mulheres, Total
+- Hierarquia dos dados: Distribuição etária e por gênero das concessões de títulos
+- Dimensões temporais: Dados pontuais para 2024
+- Variáveis relevantes: Idade, Gênero, concessão de títulos, população potencialmente ativa(PPA)
+
 ## Viabilidade das Perguntas de Pesquisa
 
 | Pergunta | Dataset(s) Relevante(s) | Viabilidade | Limitações |
@@ -197,12 +278,16 @@ A análise dos datasets foi realizada através da seguinte metodologia:
    - Os dados de evolução populacional (arquivos *_evolucao.csv) fornecem uma perspectiva histórica desde 1980
    - Estes são particularmente úteis para análise de tendências de longo prazo
 
-5. **Limitações gerais:**
-   - Ausência de variáveis demográficas detalhadas (idade, educação, profissão específica)
+5. **Para pesquisa demográfica:**
+   - Dados disponíveis para análise de população potencialmente ativa(PPA) e gênero de estrangeiros residentes e de novas concessões de títulos
+   - Considerar a complementação com dados de grupo etário das outras fontes disponíveis e comparação com os dados de população potencialmente ativa da população portuguesa residente e emigrante. 
+
+6. **Limitações gerais:**
+   - Ausência de variáveis demográficas detalhadas (educação, profissão específica)
    - Dados limitados a informações administrativas do AIMA/SEF
    - Necessidade de triangulação com outras fontes para análise mais completa
 
-6. **Sugestões para futuras coletas de dados:**
+7. **Sugestões para futuras coletas de dados:**
    - Incluir variáveis de nível educativo
    - Detalhar melhor os setores de atividade económica
    - Incluir informações sobre duração da residência
