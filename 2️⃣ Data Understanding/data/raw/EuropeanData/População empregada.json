@@ -1,0 +1,697 @@
+
+
+
+
+
+
+
+
+
+
+
+	
+	[ {
+  "IndicadorCod" : "0006149",
+  "IndicadorDsg" : "População empregada (Série 2011 - N.º) por Sexo, Setor de atividade económica (CAE Rev. 3) e Situação na profissão; Anual - INE, Inquérito ao emprego",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0006149&lingua=PT",
+  "DataExtracao" : "2025-11-21T20:34:30.230Z",
+  "DataUltimoAtualizacao" : "2023-11-24",
+  "UltimoPref" : "2020",
+  "Dados" : {
+    "2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "4,5",
+      "valor" : "4.5"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "14,9",
+      "valor" : "14.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "8,9",
+      "valor" : "8.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "5,9",
+      "valor" : "5.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "9,5",
+      "valor" : "9.5"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "ind_string" : "6,1",
+      "valor" : "6.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "4",
+      "dim_5_t" : "Trabalhador familiar não remunerado",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "11,6",
+      "valor" : "11.6"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "sinal_conv" : "x",
+      "sinal_conv_desc" : "Dado não disponível",
+      "ind_string" : "x"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "9,9",
+      "valor" : "9.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "218,9",
+      "valor" : "218.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "68,9",
+      "valor" : "68.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "150,0",
+      "valor" : "150"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "56,5",
+      "valor" : "56.5"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "10,0",
+      "valor" : "10"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "46,4",
+      "valor" : "46.4"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "150,8",
+      "valor" : "150.8"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "57,1",
+      "valor" : "57.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "3",
+      "dim_5_t" : "Trabalhador por conta própria/empregador",
+      "ind_string" : "93,7",
+      "valor" : "93.7"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "262,9",
+      "valor" : "262.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "84,3",
+      "valor" : "84.3"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "178,6",
+      "valor" : "178.6"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "4 804,0",
+      "valor" : "4804"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "2 367,8",
+      "valor" : "2367.8"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "2 436,2",
+      "valor" : "2436.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "1 200,9",
+      "valor" : "1200.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "370,5",
+      "valor" : "370.5"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "830,4",
+      "valor" : "830.4"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "3 340,3",
+      "valor" : "3340.3"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "1 913,1",
+      "valor" : "1913.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "T",
+      "dim_5_t" : "Total",
+      "ind_string" : "1 427,2",
+      "valor" : "1427.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "73,9",
+      "valor" : "73.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "23,1",
+      "valor" : "23.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "50,8",
+      "valor" : "50.8"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "4 003,1",
+      "valor" : "4003.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "2 066,9",
+      "valor" : "2066.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "1 936,2",
+      "valor" : "1936.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "1 064,1",
+      "valor" : "1064.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "351,9",
+      "valor" : "351.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "712,2",
+      "valor" : "712.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "2 865,0",
+      "valor" : "2865"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "1 691,9",
+      "valor" : "1691.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "1",
+      "dim_5_t" : "Trabalhador por conta de outrem",
+      "ind_string" : "1 173,2",
+      "valor" : "1173.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "172,9",
+      "valor" : "172.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "57,1",
+      "valor" : "57.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "A0",
+      "dim_4_t" : "Agricultura, produção animal, caça, floresta e pesca",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "115,8",
+      "valor" : "115.8"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "567,2",
+      "valor" : "567.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "223,2",
+      "valor" : "223.2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "TOT",
+      "dim_4_t" : "Total",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "344,0",
+      "valor" : "344"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "79,4",
+      "valor" : "79.4"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "8,1",
+      "valor" : "8.1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "B-F",
+      "dim_4_t" : "Indústria, construção, energia e água",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "71,3",
+      "valor" : "71.3"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "314,9",
+      "valor" : "314.9"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "158,0",
+      "valor" : "158"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "G-U",
+      "dim_4_t" : "Serviços",
+      "dim_5" : "2",
+      "dim_5_t" : "Trabalhador por conta própria/isolado",
+      "ind_string" : "156,9",
+      "valor" : "156.9"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]
+	
+	

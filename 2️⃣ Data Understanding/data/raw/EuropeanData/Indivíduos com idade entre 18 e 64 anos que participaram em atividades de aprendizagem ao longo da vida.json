@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+
+
+	
+	[ {
+  "IndicadorCod" : "0003631",
+  "IndicadorDsg" : "Indivíduos com idade entre 18 e 64 anos que participaram em atividades de aprendizagem ao longo da vida (N.º) por Sexo e Nível de escolaridade mais elevado completo; Quinquenal - INE, Inquérito à educação e formação de adultos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0003631&lingua=PT",
+  "DataExtracao" : "2025-11-21T20:32:40.570Z",
+  "DataUltimoAtualizacao" : "2009-12-21",
+  "UltimoPref" : "2007",
+  "Dados" : {
+    "2007" : [ 
+      {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "3",
+      "dim_4_t" : "Superior",
+      "ind_string" : "566 399",
+      "valor" : "566399"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "3",
+      "dim_4_t" : "Superior",
+      "ind_string" : "340 989",
+      "valor" : "340989"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "3",
+      "dim_4_t" : "Superior",
+      "ind_string" : "225 410",
+      "valor" : "225410"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "2",
+      "dim_4_t" : "Secundário/pós-secundário",
+      "ind_string" : "648 106",
+      "valor" : "648106"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "2",
+      "dim_4_t" : "Secundário/pós-secundário",
+      "ind_string" : "319 887",
+      "valor" : "319887"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "2",
+      "dim_4_t" : "Secundário/pós-secundário",
+      "ind_string" : "328 219",
+      "valor" : "328219"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "T",
+      "dim_4_t" : "Total",
+      "ind_string" : "2 097 702",
+      "valor" : "2097702"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "T",
+      "dim_4_t" : "Total",
+      "ind_string" : "1 055 548",
+      "valor" : "1055548"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "T",
+      "dim_4_t" : "Total",
+      "ind_string" : "1 042 154",
+      "valor" : "1042154"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "HM",
+      "dim_4" : "1",
+      "dim_4_t" : "Até básico 3º ciclo",
+      "ind_string" : "883 197",
+      "valor" : "883197"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "M",
+      "dim_4" : "1",
+      "dim_4_t" : "Até básico 3º ciclo",
+      "ind_string" : "394 671",
+      "valor" : "394671"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "H",
+      "dim_4" : "1",
+      "dim_4_t" : "Até básico 3º ciclo",
+      "ind_string" : "488 526",
+      "valor" : "488526"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]
+	
+	
