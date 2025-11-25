@@ -1,0 +1,183 @@
+erDiagram
+    PopulaçãoResidente {
+        int populacao_id PK
+        int total_populacao
+        int ano_referencia
+    }
+    
+    Nacionalidade {
+        int nacionalidade_id PK
+        varchar nome_nacionalidade
+        varchar codigo_pais
+        varchar continente
+    }
+    
+    Localidade {
+        int localidade_id PK
+        varchar nome_localidade
+        varchar nivel_administrativo
+        varchar codigo_regiao
+    }
+    
+    Sexo {
+        int sexo_id PK
+        varchar tipo_sexo
+    }
+    
+    GrupoEtario {
+        int grupoetario_id PK
+        varchar faixa_etaria
+        varchar descricao
+    }
+    
+    PopulaçãoPorNacionalidade {
+        int populacao_nacional_id PK
+        int nacionalidade_id FK
+        int populacao_id FK
+        int populacao_total
+        int masculino
+        int feminino
+        decimal percentagem_total
+    }
+    
+    PopulaçãoPorNacionalidadeSexo {
+        int populacao_nacional_sexo_id PK
+        int nacionalidade_id FK
+        int sexo_id FK
+        int populacao_id FK
+        int populacao_masculino
+        int populacao_feminino
+        decimal percentagem_masculino
+        decimal percentagem_feminino
+    }
+    
+    PopulaçãoPorLocalidade {
+        int populacao_local_id PK
+        int localidade_id FK
+        int populacao_id FK
+        int populacao_total
+        int populacao_portuguesa
+        int populacao_estrangeira
+        int apatridas
+    }
+    
+    PopulaçãoPorLocalidadeNacionalidade {
+        int populacao_local_nacional_id PK
+        int populacao_local_id FK
+        int nacionalidade_id FK
+        int populacao_nacional
+    }
+    
+    PopulaçãoPorGrupoEtario {
+        int populacao_grupoetario_id PK
+        int populacao_id FK
+        int grupoetario_id FK
+        int nacionalidade_id FK
+        int populacao_grupo
+        decimal percentagem_grupo
+        decimal idade_media
+    }
+    
+    EvolucaoTemporal {
+        int evolucao_id PK
+        int nacionalidade_id FK
+        int populacao_id FK
+        int ano_inicio
+        int populacao_inicio
+        int variacao_absoluta
+        decimal variacao_percentual
+        decimal taxa_crescimento
+    }
+    
+    NacionalidadePrincipal {
+        int nacionalidade_principal_id PK
+        int nacionalidade_id FK
+        int posicao_ranking
+        int populacao_2021
+        int populacao_2011
+        decimal percentagem_variacao
+    }
+    
+    DistribuicaoGeografica {
+        int distribuicao_geo_id PK
+        int localidade_id FK
+        int nacionalidade_id FK
+        int populacao_nacional_local
+        decimal concentracao_relativa
+        varchar dominio_regional
+    }
+
+    %% ===== NOVAS TABELAS EDUCACIONAIS (DP-01-B) =====
+    
+    NivelEducacao {
+        int nivel_educacao_id PK
+        varchar nome_nivel
+        varchar categoria
+        int ordem_hierarquica
+    }
+    
+    PopulacaoEducacao {
+        int populacao_educacao_id PK
+        int nacionalidade_id FK
+        int nivel_educacao_id FK
+        int populacao_total
+        varchar faixa_etaria
+        int ano_referencia
+        decimal percentual_nivel
+    }
+    
+    EstatisticasEducacao {
+        int estatistica_id PK
+        int nacionalidade_id FK
+        int populacao_total_educacao
+        int sem_educacao
+        int ensino_basico
+        int ensino_secundario
+        int ensino_superior
+        decimal percentual_sem_educacao
+        decimal percentual_ensino_superior
+        decimal percentual_ensino_basico
+        decimal percentual_ensino_secundario
+        decimal indice_educacional
+        int ano_referencia
+    }
+    
+    MapeamentoNacionalidades {
+        int nacionalidade_educacao_id PK
+        varchar nome_nacionalidade_educacao
+        int nacionalidade_id_existente FK
+        varchar compatibilidade
+    }
+
+    %% ===== RELACIONAMENTOS EXISTENTES =====
+    PopulaçãoResidente ||--o{ PopulaçãoPorNacionalidade : "1:N"
+    PopulaçãoResidente ||--o{ PopulaçãoPorLocalidade : "1:N"
+    PopulaçãoResidente ||--o{ PopulaçãoPorGrupoEtario : "1:N"
+    
+    Nacionalidade ||--o{ PopulaçãoPorNacionalidade : "1:N"
+    Nacionalidade ||--o{ PopulaçãoPorNacionalidadeSexo : "1:N"
+    Nacionalidade ||--o{ EvolucaoTemporal : "1:N"
+    Nacionalidade ||--o{ NacionalidadePrincipal : "1:1"
+    Nacionalidade ||--o{ DistribuicaoGeografica : "1:N"
+    
+    Localidade ||--o{ PopulaçãoPorLocalidade : "1:N"
+    Localidade ||--o{ DistribuicaoGeografica : "1:N"
+    
+    Sexo ||--o{ PopulaçãoPorNacionalidadeSexo : "1:N"
+    
+    GrupoEtario ||--o{ PopulaçãoPorGrupoEtario : "1:N"
+    
+    PopulaçãoPorLocalidade ||--o{ PopulaçãoPorLocalidadeNacionalidade : "1:N"
+    Nacionalidade ||--o{ PopulaçãoPorLocalidadeNacionalidade : "1:N"
+
+    %% ===== NOVOS RELACIONAMENTOS EDUCACIONAIS =====
+    %% Integração com modelo existente
+    Nacionalidade ||--o{ PopulacaoEducacao : "1:N"
+    Nacionalidade ||--o{ EstatisticasEducacao : "1:1"
+    Nacionalidade ||--o{ MapeamentoNacionalidades : "1:1"
+    
+    %% Relacionamentos internos educacionais
+    NivelEducacao ||--o{ PopulacaoEducacao : "1:N"
+    
+    %% Relacionamento de mapeamento
+    MapeamentoNacionalidades }o--|| Nacionalidade : "N:1"
