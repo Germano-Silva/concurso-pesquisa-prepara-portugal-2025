@@ -1,0 +1,5 @@
+arquivo,tabela,registros,colunas,descricao
+NivelEducacao.csv,NivelEducacao,7,4,Cadastro dos níveis educacionais padronizados
+PopulacaoEducacao.csv,PopulacaoEducacao,133,7,População por nacionalidade e nível educacional (15-64 anos)
+EstatisticasEducacao.csv,EstatisticasEducacao,19,13,Estatísticas educacionais consolidadas por nacionalidade
+MapeamentoNacionalidades.csv,MapeamentoNacionalidades,19,4,Mapeamento entre nacionalidades educacionais e existentes
