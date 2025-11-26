@@ -1,0 +1,20 @@
+nacionalidade_educacao_id,nome_nacionalidade_educacao,nacionalidade_id_existente,compatibilidade
+1,População residente,14,Sim
+2,Nacionalidade portuguesa,11,Sim
+3,Nacionalidade estrangeira,11,Sim
+4,Brasil,4,Sim
+5,Angola,2,Sim
+6,Cabo Verde,5,Sim
+7,Reino Unido,15,Sim
+8,Ucrânia,18,Sim
+9,França,8,Sim
+10,China,6,Sim
+11,Guiné-Bissau,9,Sim
+12,Índia,19,Sim
+13,Roménia,16,Sim
+14,Itália,10,Sim
+15,Nepal,13,Sim
+16,Espanha,7,Sim
+17,Alemanha,1,Sim
+18,São Tomé e Príncipe,17,Sim
+19,Apátridas,3,Sim

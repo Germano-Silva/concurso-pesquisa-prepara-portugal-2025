@@ -1,0 +1,12 @@
+arquivo,tabela,registros,colunas,descricao
+PopulacaoResidente.csv,PopulacaoResidente,2,3,População residente total por ano de referência
+Nacionalidade.csv,Nacionalidade,19,4,Cadastro de nacionalidades com códigos e continentes
+Localidade.csv,Localidade,344,4,Divisões administrativas (NUTS I/II/III/Municípios)
+Sexo.csv,Sexo,3,2,Classificação por sexo (HM/H/M)
+GrupoEtario.csv,GrupoEtario,4,3,Grupos etários padronizados
+PopulacaoPorNacionalidade.csv,PopulacaoPorNacionalidade,38,7,População por nacionalidade e ano
+PopulacaoPorGrupoEtario.csv,PopulacaoPorGrupoEtario,76,7,Distribuição etária por nacionalidade
+EvolucaoTemporal.csv,EvolucaoTemporal,19,8,Evolução temporal 2011-2021 por nacionalidade
+NacionalidadePrincipal.csv,NacionalidadePrincipal,15,6,Ranking das 15 principais nacionalidades
+PopulacaoPorLocalidade.csv,PopulacaoPorLocalidade,344,7,População por divisão administrativa
+DistribuicaoGeografica.csv,DistribuicaoGeografica,4053,6,Concentração geográfica por nacionalidade
