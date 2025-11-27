@@ -1,0 +1,20 @@
+nacionalidade_id,nome_nacionalidade,codigo_pais,continente
+1,Alemanha,DE,Europa
+2,Angola,AO,África
+3,Apátridas,AP,Outros
+4,Brasil,BR,América
+5,Cabo Verde,CV,África
+6,China,CN,Ásia
+7,Espanha,ES,Europa
+8,França,FR,Europa
+9,Guiné-Bissau,GW,África
+10,Itália,IT,Europa
+11,Nacionalidade estrangeira,NA,Outros
+12,Nacionalidade portuguesa,NA,Outros
+13,Nepal,NP,Ásia
+14,População residente,PO,Outros
+15,Reino Unido,GB,Europa
+16,Roménia,RO,Europa
+17,São Tomé e Príncipe,ST,África
+18,Ucrânia,UA,Europa
+19,Índia,IN,Ásia
