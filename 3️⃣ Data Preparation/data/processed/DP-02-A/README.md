@@ -70,6 +70,3 @@ Consolidar dados de concessão de títulos por motivos (2020-2024) como compleme
 
 **📍 Localização:** `2️⃣ Data Understanding/data/raw/aima/extraidas/`
 
----
-
-## 📁 Estrutura de Arquivos
