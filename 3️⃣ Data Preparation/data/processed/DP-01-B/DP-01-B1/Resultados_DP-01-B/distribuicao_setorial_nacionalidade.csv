@@ -1,0 +1,43 @@
+codigo_cae,setor_economico,nacionalidade,num_empregados,percentual_da_nacionalidade,percentual_do_setor
+A,"Agricultura, produção animal, caça, floresta e pesca",Estrangeira (Imigrantes),14663,5.55,11.27
+A,"Agricultura, produção animal, caça, floresta e pesca",Portuguesa,115478,2.77,88.73
+B,Indústrias extractivas,Estrangeira (Imigrantes),366,0.14,3.57
+B,Indústrias extractivas,Portuguesa,9887,0.24,96.43
+C,Indústrias transformadoras,Estrangeira (Imigrantes),28672,10.85,4.14
+C,Indústrias transformadoras,Portuguesa,664636,15.97,95.86
+D,"Electricidade, gás, vapor, água quente e fria e ar frio",Estrangeira (Imigrantes),774,0.29,4.19
+D,"Electricidade, gás, vapor, água quente e fria e ar frio",Portuguesa,17693,0.43,95.81
+E,"Captação, tratamento e distribuição de água; saneamento, gestão de resíduos e despoluição",Estrangeira (Imigrantes),923,0.35,2.86
+E,"Captação, tratamento e distribuição de água; saneamento, gestão de resíduos e despoluição",Portuguesa,31400,0.75,97.14
+F,Construção,Estrangeira (Imigrantes),31385,11.88,9.17
+F,Construção,Portuguesa,310743,7.47,90.83
+G,Comércio por grosso e a retalho; reparação de veículos automóveis e motociclos,Estrangeira (Imigrantes),36794,13.92,5.17
+G,Comércio por grosso e a retalho; reparação de veículos automóveis e motociclos,Portuguesa,674229,16.2,94.83
+H,Transportes e armazenagem,Estrangeira (Imigrantes),9821,3.72,5.59
+H,Transportes e armazenagem,Portuguesa,165739,3.98,94.41
+I,"Alojamento, restauração e similares",Estrangeira (Imigrantes),33090,12.52,12.87
+I,"Alojamento, restauração e similares",Portuguesa,224045,5.38,87.13
+J,Actividades de informação e de comunicação,Estrangeira (Imigrantes),13429,5.08,9.03
+J,Actividades de informação e de comunicação,Portuguesa,135295,3.25,90.97
+K,Actividades financeiras e de seguros,Estrangeira (Imigrantes),3262,1.23,3.21
+K,Actividades financeiras e de seguros,Portuguesa,98373,2.36,96.79
+L,Actividades imobiliárias,Estrangeira (Imigrantes),3165,1.2,7.55
+L,Actividades imobiliárias,Portuguesa,38775,0.93,92.45
+M,"Actividades de consultoria, científicas, técnicas e similares",Estrangeira (Imigrantes),11899,4.5,5.53
+M,"Actividades de consultoria, científicas, técnicas e similares",Portuguesa,203241,4.88,94.47
+N,Actividades administrativas e dos serviços de apoio,Estrangeira (Imigrantes),23514,8.9,11.15
+N,Actividades administrativas e dos serviços de apoio,Portuguesa,187350,4.5,88.85
+O,Administração Pública e Defesa; Segurança Social Obrigatória,Estrangeira (Imigrantes),3585,1.36,1.03
+O,Administração Pública e Defesa; Segurança Social Obrigatória,Portuguesa,344778,8.28,98.97
+P,Educação,Estrangeira (Imigrantes),8191,3.1,2.5
+P,Educação,Portuguesa,320063,7.69,97.5
+Q,Actividades de saúde humana e apoio social,Estrangeira (Imigrantes),18908,7.15,4.24
+Q,Actividades de saúde humana e apoio social,Portuguesa,426542,10.25,95.76
+R,"Actividades artísticas, de espectáculos, desportivas e recreativas",Estrangeira (Imigrantes),3848,1.46,7.52
+R,"Actividades artísticas, de espectáculos, desportivas e recreativas",Portuguesa,47314,1.14,92.48
+S,Outras actividades de serviços,Estrangeira (Imigrantes),9221,3.49,9.23
+S,Outras actividades de serviços,Portuguesa,90646,2.18,90.77
+T,Atividades das famílias empregadoras de pessoal doméstico,Estrangeira (Imigrantes),8286,3.14,13.2
+T,Atividades das famílias empregadoras de pessoal doméstico,Portuguesa,54503,1.31,86.8
+U,Actividades dos organismos internacionais e outras instituições extra-territoriais,Estrangeira (Imigrantes),475,0.18,25.44
+U,Actividades dos organismos internacionais e outras instituições extra-territoriais,Portuguesa,1392,0.03,74.56
