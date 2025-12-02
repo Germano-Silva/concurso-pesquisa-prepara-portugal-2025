@@ -1,0 +1,159 @@
+erDiagram
+    %% ===== ENTIDADES EXISTENTES (IMPORTADAS DO LABORAL - SEM ALTERAÇÕES) =====
+    %% (Mantidas para contexto de integração - PopulaçãoResidente, Nacionalidade, Sexo, GrupoEtario, etc.)
+    PopulaçãoResidente {
+        int populacao_id PK
+        int total_populacao
+        int ano_referencia
+    }
+    Nacionalidade {
+        int nacionalidade_id PK
+        varchar nome_nacionalidade
+        varchar codigo_pais
+        varchar continente
+    }
+    Sexo {
+        int sexo_id PK
+        varchar tipo_sexo
+    }
+    GrupoEtario {
+        int grupoetario_id PK
+        varchar faixa_etaria
+        varchar descricao
+    }
+    NivelEducacao {
+        int nivel_educacao_id PK
+        varchar nome_nivel
+        varchar categoria
+        int ordem_hierarquica
+    }
+    %% Laborais existentes para integração
+    CondicaoEconomica {
+        int condicao_id PK
+        varchar nome_condicao
+        varchar categoria
+    }
+    SetorEconomico {
+        int setor_id PK
+        varchar codigo_cae
+        varchar descricao
+    }
+
+    %% ===== NOVAS ENTIDADES AIMA (NORMALIZADAS 3FN/BCNF) =====
+    AnoRelatorio {
+        int ano_id PK
+        int ano "2020-2024"
+        varchar fonte "RIFA/RMA"
+    }
+    TipoRelatorio {
+        int tipo_id PK
+        varchar tipo "ConcessaoTitulos/PopulacaoEstrangeira/PopulacaoResidente"
+    }
+    Despacho {
+        int despacho_id PK
+        varchar codigo_despacho
+        varchar descricao
+    }
+    MotivoConcessao {
+        int motivo_id PK
+        varchar nome_motivo "Reagrupamento Familiar, Atividade Profissional, Estudo, CRs, Outros, Acordo CPLP"
+        varchar categoria "Familiar/Profissional/Educacional/Outro"
+    }
+
+    %% Tabelas de Dimensão (lookup tables para normalização)
+    NacionalidadeAIMA {
+        int nacionalidade_aima_id PK
+        varchar nome_nacionalidade_aima
+        int nacionalidade_id FK
+    }
+
+    %% Tabelas de FATO (normalizadas, sem redundâncias)
+    ConcessoesPorNacionalidadeSexo {
+        int concessao_nac_sexo_id PK
+        int ano_id FK
+        int tipo_id FK "1=Concessao"
+        int nacionalidade_aima_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    ConcessoesPorDespacho {
+        int concessao_despacho_id PK
+        int ano_id FK
+        int tipo_id FK
+        int despacho_id FK
+        int concessoes
+    }
+    ConcessoesPorMotivoNacionalidade {
+        int concessao_motivo_nac_id PK
+        int ano_id FK
+        int motivo_id FK
+        int nacionalidade_aima_id FK
+        int total_motivo
+    }
+    PopulacaoEstrangeiraPorNacionalidadeSexo {
+        int pop_est_nac_sexo_id PK
+        int ano_id FK
+        int tipo_id FK "2=PopEstrangeira"
+        int nacionalidade_aima_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    DistribuicaoEtariaConcessoes {
+        int dist_etaria_conc_id PK
+        int ano_id FK
+        int tipo_id FK
+        int grupoetario_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    EvolucaoPopulacaoEstrangeira {
+        int evolucao_pop_id PK
+        int ano_id FK
+        int titulos_residencia
+        int concessao_ap
+        int prorrogacao_vld
+        int total
+        decimal variacao_percent
+    }
+    PopulacaoResidenteEtaria {
+        int pop_res_etaria_id PK
+        int ano_id FK
+        int tipo_id FK "3=PopResidente"
+        int grupoetario_id FK
+        int total
+    }
+
+    %% ===== RELACIONAMENTOS E INTEGRAÇÕES =====
+    %% Integração com existentes
+    Nacionalidade ||--o{ NacionalidadeAIMA : "1:N" "mapeamento nomes AIMA -> padronizado"
+    AnoRelatorio ||--o{ PopulaçãoResidente : "N:1" "ano_referencia"
+    GrupoEtario ||--o{ DistribuicaoEtariaConcessoes : "1:N"
+    Sexo ||--o{ ConcessoesPorNacionalidadeSexo : "1:N"
+    Sexo ||--o{ PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    Sexo ||--o{ DistribuicaoEtariaConcessoes : "1:N"
+
+    %% Internos AIMA (fato -> dimensões)
+    AnoRelatorio ||--o{ ConcessoesPorNacionalidadeSexo : "1:N"
+    AnoRelatorio ||--o{ ConcessoesPorDespacho : "1:N"
+    AnoRelatorio ||--o{ ConcessoesPorMotivoNacionalidade : "1:N"
+    AnoRelatorio ||--o{ PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    AnoRelatorio ||--o{ DistribuicaoEtariaConcessoes : "1:N"
+    AnoRelatorio ||--o{ EvolucaoPopulacaoEstrangeira : "1:N"
+    AnoRelatorio ||--o{ PopulacaoResidenteEtaria : "1:N"
+
+    TipoRelatorio ||--o{ ConcessoesPorNacionalidadeSexo : "1:N"
+    Despacho ||--o{ ConcessoesPorDespacho : "1:N"
+    MotivoConcessao ||--o{ ConcessoesPorMotivoNacionalidade : "1:N"
+    NacionalidadeAIMA ||--o{ ConcessoesPorNacionalidadeSexo : "1:N"
+    NacionalidadeAIMA ||--o{ PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    NacionalidadeAIMA ||--o{ ConcessoesPorMotivoNacionalidade : "1:N"
+
+    %% Integração Laboral (Motivos profissionais -> Condicoes/Setores)
+    MotivoConcessao ||--o{ CondicaoEconomica : "N:M" "atividade profissional -> ativa"
+    MotivoConcessao ||--o{ SetorEconomico : "N:M" "via agregação futura ETL"
+
+    %% Comentários de Otimização
+    %% - Índices: ano_id + nacionalidade_aima_id em fatos para queries temporais/nacionais
+    %% - Particionamento: Por ano_id para grandes volumes
+    %% - Constraints FK obrigatórias para integridade
+    %% - Desnormalização mínima: Apenas percentuais calculados em views
