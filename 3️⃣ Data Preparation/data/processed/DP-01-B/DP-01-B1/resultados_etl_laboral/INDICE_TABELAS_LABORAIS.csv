@@ -1,0 +1,16 @@
+arquivo,tabela,tipo,registros,colunas
+CondicaoEconomica.csv,CondicaoEconomica,Dimensional,11,3
+GrupoProfissional.csv,GrupoProfissional,Dimensional,10,3
+ProfissaoDigito1.csv,ProfissaoDigito1,Dimensional,10,3
+SetorEconomico.csv,SetorEconomico,Dimensional,27,4
+SituacaoProfissional.csv,SituacaoProfissional,Dimensional,4,2
+FonteRendimento.csv,FonteRendimento,Dimensional,6,2
+RegiaoNUTS.csv,RegiaoNUTS,Dimensional,8,3
+PopulacaoPorCondicao.csv,PopulacaoPorCondicao,Fato,209,6
+EmpregadosPorProfissao.csv,EmpregadosPorProfissao,Fato,188,4
+EmpregadosPorSetor.csv,EmpregadosPorSetor,Fato,391,4
+EmpregadosPorSituacao.csv,EmpregadosPorSituacao,Fato,76,4
+EmpregadosProfSexo.csv,EmpregadosProfSexo,Fato,9,5
+EmpregadosRegiaoSetor.csv,EmpregadosRegiaoSetor,Fato,42,4
+PopulacaoTrabalhoEscolaridade.csv,PopulacaoTrabalhoEscolaridade,Fato,15,7
+PopulacaoRendimentoRegiao.csv,PopulacaoRendimentoRegiao,Fato,42,4

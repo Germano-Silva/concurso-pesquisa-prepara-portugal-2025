@@ -1,0 +1,28 @@
+setor_id,codigo_cae,descricao,agregado
+1,A,"Agricultura, produção animal, caça, floresta e pesca",False
+2,B,Indústrias extractivas,False
+3,C,Indústrias transformadoras,False
+4,D,"Electricidade, gás, vapor, água quente e fria e ar frio",False
+5,E,"Captação, tratamento e distribuição de água; saneamento, gestão de resíduos e despoluição",False
+6,F,Construção,False
+7,G,Comércio por grosso e a retalho; reparação de veículos automóveis e motociclos,False
+8,H,Transportes e armazenagem,False
+9,I,"Alojamento, restauração e similares",False
+10,J,Actividades de informação e de comunicação,False
+11,K,Actividades financeiras e de seguros,False
+12,L,Actividades imobiliárias,False
+13,M,"Actividades de consultoria, científicas, técnicas e similares",False
+14,N,Actividades administrativas e dos serviços de apoio,False
+15,O,Administração Pública e Defesa; Segurança Social Obrigatória,False
+16,P,Educação,False
+17,Q,Actividades de saúde humana e apoio social,False
+18,R,"Actividades artísticas, de espectáculos, desportivas e recreativas",False
+19,S,Outras actividades de serviços,False
+20,T,Atividades das famílias empregadoras de pessoal doméstico,False
+21,U,Actividades dos organismos internacionais e outras instituições extra-territoriais,False
+22,AGR,Agricultura (Secção A),True
+23,IND,Indústria (Secção B-E),True
+24,CON,Construção (Secção F),True
+25,COM,Comércio (Secção G-J),True
+26,FIN,Atividades financeiras e imobiliárias (Secção K-L),True
+27,SER,Outras atividades de serviços (Secção M-U),True

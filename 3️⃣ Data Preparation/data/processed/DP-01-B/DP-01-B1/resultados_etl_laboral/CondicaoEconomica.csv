@@ -1,0 +1,12 @@
+condicao_id,nome_condicao,categoria
+1,Total,Total
+2,Ativa,Ativa
+3,Empregada,Ativa
+4,Desempregada,Ativa
+5,Inativa,Inativa
+6,População com menos de 15 anos,Inativa
+7,Estudantes,Inativa
+8,Domésticos,Inativa
+9,Reformados,Inativa
+10,Incapacitados para o trabalho,Inativa
+11,Outra situação,Inativa

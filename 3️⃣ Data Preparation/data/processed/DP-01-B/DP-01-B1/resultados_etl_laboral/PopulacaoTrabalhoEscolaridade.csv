@@ -1,0 +1,16 @@
+pop_trab_esc_id,nivel_educacao_id,sexo_id,condicao_trabalho,quantidade_hm,quantidade_h,quantidade_m
+1,2,1,Empregada,387984,222807,165177
+2,2,1,Desempregada,37667,18750,18917
+3,2,1,Não activa,1582424,663560,918864
+4,3,1,Empregada,475695,292477,183218
+5,3,1,Desempregada,45293,23839,21454
+6,3,1,Não activa,343524,161161,182363
+7,4,1,Empregada,800846,465801,335045
+8,4,1,Desempregada,83086,40731,42355
+9,4,1,Não activa,720721,349799,370922
+10,6,1,Empregada,1379164,715152,664012
+11,6,1,Desempregada,139582,62363,77219
+12,6,1,Não activa,704916,326591,378325
+13,7,1,Empregada,1340708,536813,803895
+14,7,1,Desempregada,71435,26796,44639
+15,7,1,Não activa,370745,149173,221572

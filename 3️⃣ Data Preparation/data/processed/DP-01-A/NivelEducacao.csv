@@ -1,0 +1,8 @@
+nivel_educacao_id,nome_nivel,categoria,ordem_hierarquica
+1,Nenhum,Sem Educação Formal,0
+2,Ensino Básico - 1º Ciclo,Ensino Básico,1
+3,Ensino Básico - 2º Ciclo,Ensino Básico,2
+4,Ensino Básico - 3º Ciclo,Ensino Básico,3
+5,Ensino Básico - Total,Ensino Básico,4
+6,Ensino Secundário e Pós-Secundário,Ensino Secundário,5
+7,Ensino Superior,Ensino Superior,6
