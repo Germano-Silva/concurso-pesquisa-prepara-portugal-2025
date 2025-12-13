@@ -1,6 +1,6 @@
 # O Perfil Sócio-profissional do Imigrante em Portugal: Uma Análise da Relação entre Nível Educacional e Inserção no Mercado de Trabalho
 
-**Autores:** Germano Silva, Samuel Oliveira, Tabata Zardi, Gustavo Waltrick, [Nome do Aluno 5]  
+**Autores:** Germano Silva, Samuel Oliveira, Tabata Zardi e Gustavo Waltrick. 
 **Data de Entrega:** 17 de dezembro de 2025  
 **Concurso:** Prepara Portugal 2025
 
@@ -181,43 +181,9 @@ Os dados disponíveis da AIMA concentram-se em informação administrativa sobre
 
 ### 4. Gráficos e Tabelas
 
-*Nota: Esta secção apresenta referências a gráficos e tabelas complementares. Os gráficos serão desenvolvidos na fase de apresentação final.*
+*Nota: Esta secção apresenta referências a gráficos e tabelas complementares. Respondendo e contextualizando Perguntas de pesuisa e  Os gráficos serão desenvolvidos na fase de apresentação final.*
 
-**Gráfico 4.1: Evolução da População Estrangeira Residente em Portugal (2011-2024)**
 
-*[Gráfico de linha representando a evolução temporal da população estrangeira, distinguindo dados censitários (2011, 2021) de dados administrativos AIMA (2020-2024)]*
-
-*Fonte: Elaboração própria com base nos dados do INE (Censos 2011 e 2021) e AIMA (RIFA/RMA 2020-2024), consulta em dezembro de 2025.*
-
-**Gráfico 4.2: Principais Nacionalidades Estrangeiras Residentes (2021)**
-
-*[Gráfico de barras horizontais apresentando as 15 principais nacionalidades por volume de população residente]*
-
-*Fonte: Elaboração própria com base nos dados do INE - Censos 2021, consulta em dezembro de 2025.*
-
-**Gráfico 4.3: Distribuição Etária da População Estrangeira (2020-2024)**
-
-*[Gráfico de área empilhada mostrando a evolução da distribuição por grupos etários (0-17 anos, 18-64 anos, 65+ anos)]*
-
-*Fonte: Elaboração própria com base nos dados da AIMA (RIFA/RMA 2020-2024), consulta em dezembro de 2025.*
-
-**Tabela 4.1: Evolução dos Motivos de Concessão de Títulos (Distribuição Percentual)**
-
-| Motivo | 2020 | 2021 | 2022 | 2023 |
-|:-------|:----:|:----:|:----:|:----:|
-| Atividade Profissional | 25,2% | 32,2% | 36,0% | 15,3% |
-| Reagrupamento Familiar | 30,3% | 18,6% | 18,9% | 13,6% |
-| Estudo | 10,4% | 9,8% | - | 7,3% |
-| AR CPLP (Art. 87A) | - | - | - | 45,3% |
-| Outros | 34,1% | 39,4% | 45,1% | 18,5% |
-
-*Fonte: Elaboração própria com base nos dados da AIMA (RIFA 2020-2022 e RMA 2023), consulta em dezembro de 2025.*
-
-**Gráfico 4.4: Perfil Educacional por Nacionalidade Selecionada (2021)**
-
-*[Gráfico de barras empilhadas 100% apresentando a distribuição educacional (sem educação, básico, secundário, superior) para as principais nacionalidades]*
-
-*Fonte: Elaboração própria com base nos dados do INE - Censos 2021, consulta em dezembro de 2025.*
 
 ---
 
