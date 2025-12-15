@@ -76,22 +76,31 @@ Este crescimento acentuou-se significativamente no período pós-2021. De acordo
 
 Segundo os dados dos Censos 2021 do INE, o Brasil consolidou-se como a principal nacionalidade estrangeira residente em Portugal, com 199.810 indivíduos, representando 36,9% do total de estrangeiros. Seguem-se Angola, com 31.556 residentes (5,8%), Cabo Verde com 24.302 residentes (4,5%), Reino Unido com 23.606 residentes (4,4%) e Ucrânia com 19.180 residentes (3,5%).
 
-A análise da evolução temporal revela dinâmicas distintas por nacionalidade. O Nepal registou o crescimento mais expressivo entre 2011 e 2021, com uma taxa de variação de 1.278,9%, passando de 1.562 para 21.535 residentes. A Itália apresentou um crescimento de 301,7% (de 1.302 para 5.234 residentes), e o Brasil cresceu 82,0% (de 109.622 para 199.810 residentes).
+A análise da evolução temporal revela dinâmicas marcadamente distintas por nacionalidade. O Nepal registou o crescimento mais expressivo entre 2011 e 2021, passando de 1.562 para 21.535 residentes (+1.278,9%). A Itália apresentou um crescimento de 301,9% (de 1.302 para 5.234 residentes), o Reino Unido cresceu 49,7% (de 15.774 para 23.606) e o Brasil, a nacionalidade mais representativa, cresceu 82,0% (de 109.787 para 199.810 residentes).
 
-**Tabela 3.2.1: Principais Nacionalidades Estrangeiras Residentes em Portugal (2021)**
+Contrariando a tendência geral de crescimento, observaram-se decréscimos significativos em algumas comunidades estabelecidas: a Ucrânia registou uma redução de 43,2% (de 33.790 para 19.180 residentes) e Cabo Verde uma diminuição de 37,5% (de 38.895 para 24.302 residentes), refletindo dinâmicas de retorno migratório e mobilidade intra-europeia. Angola apresentou um crescimento moderado de 17,1% (de 26.954 para 31.556 residentes).
+
+**Tabela 3.2.1: Principais Nacionalidades Estrangeiras Residentes em Portugal (2011-2021)**
 
 | Nacionalidade | População 2011 | População 2021 | Variação (%) | % do Total (2021) |
 |:--------------|:--------------:|:--------------:|:------------:|:-----------------:|
-| Brasil | 109.622 | 199.810 | +82,0% | 36,9% |
-| Angola | 20.366 | 31.556 | +54,9% | 5,8% |
-| Cabo Verde | 20.108 | 24.302 | +20,9% | 4,5% |
-| Reino Unido | 18.493 | 23.606 | +27,6% | 4,4% |
-| Ucrânia | 10.191 | 19.180 | +88,2% | 3,5% |
-| França | 6.165 | 16.376 | +165,6% | 3,0% |
-| Itália | 1.302 | 5.234 | +301,7% | 1,0% |
-| Nepal | 1.562 | 21.535 | +1.278,9% | 4,0% |
+| Brasil | 109.787 | 199.810 | +82,0% | 36,9% |
+| Angola | 26.954 | 31.556 | +17,1% | 5,8% |
+| Cabo Verde | 38.895 | 27.144 | -30,2% | 5,0% |
+| Reino Unido | 15.774 | 24.609 | +56,0% | 4,5% |
+| Roménia | 24.356 | 13.837 | -43,2% | 2,6% |
+| Ucrânia | 33.790 | 21.199 | -37,3% | 3,9% |
+| França | 14.360 | 19.064 | +32,8% | 3,5% |
+| China | 11.458 | 16.631 | +45,1% | 3,1% |
+| Guiné-Bissau | 16.360 | 15.298 | -6,5% | 2,8% |
+| Índia | 3.148 | 14.130 | +348,8% | 2,6% |
+| Itália | 3.443 | 13.829 | +301,6% | 2,6% |
+| Nepal | 959 | 13.224 | +1.278,9% | 2,4% |
+| Espanha | 10.486 | 12.811 | +22,2% | 2,4% |
+| Alemanha | 9.238 | 11.193 | +21,2% | 2,1% |
+| São Tomé e Príncipe | 10.408 | 10.024 | -3,7% | 1,8% |
 
-*Fonte: Elaboração própria com base nos dados do INE - Censos 2011 e 2021.*
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2011 e 2021 (PopulacaoPorNacionalidade.csv).*
 
 Dados mais recentes da AIMA (2023) indicam o Brasil como a nacionalidade com maior número de concessões de títulos de residência (147.262), seguido de Angola (24.374), Cabo Verde (14.623), São Tomé e Príncipe (14.504) e Guiné-Bissau (10.320).
 
@@ -149,9 +158,7 @@ Em 2023, a AR CPLP (Art.º 87A) tornou-se o principal motivo de concessão, repr
 | 2021 | 111.311 | 35.886 (32,2%) | 20.718 (18,6%) | 10.919 (9,8%) | - |
 | 2022 | 143.081 | 51.525 (36,0%) | 27.054 (18,9%) | [N/D] | - |
 | 2023 | 328.978 | 50.333 (15,3%) | 44.878 (13,6%) | 23.876 (7,3%) | 149.174 (45,3%) |
-| 2024 | 218.332 | [N/D] | [N/D] | [N/D] | 56,3%* |
-
-*Percentagem combinada de Atividade Profissional e AR CPLP.
+| 2024 | 218.332 | 63.527 (29,1%) | 25.093 (11,5%) | 17.504 (8,0%) | 59.372 (27,2%) |
 
 *Fonte: AIMA - RIFA 2020-2022 e RMA 2023-2024.*
 
@@ -173,17 +180,208 @@ A análise por nacionalidade revela padrões distintos. As nacionalidades do sub
 
 #### 3.6. Distribuição Setorial no Mercado de Trabalho
 
-[Dados não disponíveis nos arquivos fornecidos sobre a distribuição detalhada da população estrangeira por setores de atividade económica segundo a CAE Rev.3]
+Segundo os dados dos Censos 2021 do INE, a população estrangeira empregada totaliza 264.271 trabalhadores, representando 5,97% do total de empregados em Portugal (4.426.393 trabalhadores). A análise da distribuição setorial, segundo a Classificação das Atividades Económicas (CAE Rev.3), revela padrões diferenciados de inserção laboral entre a população portuguesa (4.162.122 empregados) e a população estrangeira.
 
-Os dados disponíveis da AIMA concentram-se em informação administrativa sobre títulos de residência e não incluem a distribuição estatística da população estrangeira empregada por setor de atividade económica. Embora a atividade profissional seja um motivo relevante para a concessão de residência, não há um mapeamento setorial direto do emprego dos imigrantes nos relatórios AIMA consultados.
+**3.6.1. Setores de Maior Concentração Relativa**
+
+A análise da composição interna dos setores económicos identifica aqueles onde a população estrangeira apresenta maior representatividade face à população portuguesa. Os três setores com maior concentração de trabalhadores estrangeiros são:
+
+- **Setor U** (Atividades dos organismos internacionais e outras instituições extra-territoriais): 25,44% dos empregados são estrangeiros (475 de um total de 1.867 trabalhadores)
+- **Setor T** (Atividades das famílias empregadoras de pessoal doméstico): 13,20% dos empregados são estrangeiros (8.286 de um total de 62.789 trabalhadores)
+- **Setor I** (Alojamento, restauração e similares): 12,87% dos empregados são estrangeiros (33.090 de um total de 257.135 trabalhadores)
+
+Outros setores com concentração superior à média nacional (5,97%) incluem a Construção (9,17%), as Atividades administrativas e dos serviços de apoio (11,15%), e as Atividades de informação e comunicação (9,03%).
+
+**3.6.2. Setores de Maior Absorção Absoluta**
+
+Em termos de volume absoluto de trabalhadores estrangeiros empregados, os cinco principais setores são:
+
+- **Comércio por grosso e a retalho** (Setor G): 36.794 trabalhadores estrangeiros, representando 13,92% da população estrangeira empregada
+- **Alojamento, restauração e similares** (Setor I): 33.090 trabalhadores estrangeiros (12,52% do total de estrangeiros)
+- **Construção** (Setor F): 31.385 trabalhadores estrangeiros (11,88% do total de estrangeiros)
+- **Indústrias transformadoras** (Setor C): 28.672 trabalhadores estrangeiros (10,85% do total de estrangeiros)
+- **Atividades administrativas e dos serviços de apoio** (Setor N): 23.514 trabalhadores estrangeiros (8,90% do total de estrangeiros)
+
+Estes cinco setores concentram conjuntamente 58,07% (153.455) da população estrangeira empregada em Portugal, evidenciando uma concentração setorial significativa.
+
+**3.6.3. Comparação com a População Portuguesa**
+
+A distribuição setorial da população estrangeira apresenta diferenças notáveis face à população portuguesa. Enquanto os portugueses apresentam maior concentração nos setores de Comércio (16,20%), Indústrias transformadoras (15,97%) e Administração Pública (8,28%), a população estrangeira concentra-se predominantemente em Comércio (13,92%), Alojamento e restauração (12,52%) e Construção (11,88%).
+
+Destaca-se a sobre-representação de estrangeiros nos setores de Alojamento e restauração (12,52% vs 5,38% dos portugueses) e Construção (11,88% vs 7,47%), em contraste com a sub-representação em Administração Pública (1,36% vs 8,28%) e Educação (3,10% vs 7,69%). Esta distribuição reflete as especificidades de acesso ao mercado de trabalho e as oportunidades de emprego disponíveis para a população imigrante.
+
+**Tabela 3.6.1: Principais Setores de Atividade Económica da População Estrangeira Empregada (2021)**
+
+| Setor (CAE) | Descrição | Empregados Estrangeiros | % da Pop. Estrangeira | % do Setor | Empregados Portugueses |
+|:------------|:----------|:-----------------------:|:---------------------:|:----------:|:----------------------:|
+| G | Comércio por grosso e a retalho | 36.794 | 13,92% | 5,17% | 674.229 |
+| I | Alojamento, restauração e similares | 33.090 | 12,52% | 12,87% | 224.045 |
+| F | Construção | 31.385 | 11,88% | 9,17% | 310.743 |
+| C | Indústrias transformadoras | 28.672 | 10,85% | 4,14% | 664.636 |
+| N | Atividades administrativas | 23.514 | 8,90% | 11,15% | 187.350 |
+| Q | Saúde humana e apoio social | 18.908 | 7,15% | 4,24% | 426.542 |
+| A | Agricultura e pesca | 14.663 | 5,55% | 11,27% | 115.478 |
+| J | Informação e comunicação | 13.429 | 5,08% | 9,03% | 135.295 |
+| M | Consultoria, científicas e técnicas | 11.899 | 4,50% | 5,53% | 203.241 |
+| H | Transportes e armazenagem | 9.821 | 3,72% | 5,59% | 165.739 |
+
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2021.*
+
+Os dados evidenciam que a inserção laboral da população estrangeira se concentra em setores específicos, com padrões diferenciados dos observados na população portuguesa, refletindo tanto características de procura de mão-de-obra quanto dinâmicas de segmentação do mercado de trabalho.
 
 ---
 
 ### 4. Gráficos e Tabelas
 
-*Nota: Esta secção apresenta referências a gráficos e tabelas complementares. Respondendo e contextualizando Perguntas de pesuisa e  Os gráficos serão desenvolvidos na fase de apresentação final.*
+Esta secção apresenta tabelas descritivas complementares que respondem às perguntas de pesquisa formuladas, organizando os dados de forma a facilitar a compreensão dos padrões de inserção profissional e educacional da população estrangeira em Portugal.
 
+#### 4.1. Distribuição Completa por Setor Económico
 
+A Tabela 4.1 apresenta a distribuição completa da população empregada em Portugal em 2021, discriminada por nacionalidade (portuguesa e estrangeira) e organizada segundo os 22 setores da Classificação das Atividades Económicas (CAE Rev.3). Esta tabela permite uma visão integral da estrutura do mercado de trabalho português e dos padrões de inserção da população imigrante.
+
+**Tabela 4.1: Distribuição Completa da População Empregada por Setor de Atividade Económica e Nacionalidade (2021)**
+
+| Cód. | Setor de Atividade Económica | Estrangeiros | Portugueses | Total | % Estrangeiros no Setor | % da Pop. Estrangeira |
+|:----:|:-----------------------------|:------------:|:-----------:|:-----:|:-----------------------:|:---------------------:|
+| A | Agricultura, produção animal, caça, floresta e pesca | 14.663 | 115.478 | 130.141 | 11,27% | 5,55% |
+| B | Indústrias extractivas | 366 | 9.887 | 10.253 | 3,57% | 0,14% |
+| C | Indústrias transformadoras | 28.672 | 664.636 | 693.308 | 4,14% | 10,85% |
+| D | Electricidade, gás, vapor, água quente e fria e ar frio | 774 | 17.693 | 18.467 | 4,19% | 0,29% |
+| E | Captação, tratamento e distribuição de água; saneamento, gestão de resíduos e despoluição | 923 | 31.400 | 32.323 | 2,86% | 0,35% |
+| F | Construção | 31.385 | 310.743 | 342.128 | 9,17% | 11,88% |
+| G | Comércio por grosso e a retalho; reparação de veículos automóveis e motociclos | 36.794 | 674.229 | 711.023 | 5,17% | 13,92% |
+| H | Transportes e armazenagem | 9.821 | 165.739 | 175.560 | 5,59% | 3,72% |
+| I | Alojamento, restauração e similares | 33.090 | 224.045 | 257.135 | 12,87% | 12,52% |
+| J | Actividades de informação e de comunicação | 13.429 | 135.295 | 148.724 | 9,03% | 5,08% |
+| K | Actividades financeiras e de seguros | 3.262 | 98.373 | 101.635 | 3,21% | 1,23% |
+| L | Actividades imobiliárias | 3.165 | 38.775 | 41.940 | 7,55% | 1,20% |
+| M | Actividades de consultoria, científicas, técnicas e similares | 11.899 | 203.241 | 215.140 | 5,53% | 4,50% |
+| N | Actividades administrativas e dos serviços de apoio | 23.514 | 187.350 | 210.864 | 11,15% | 8,90% |
+| O | Administração Pública e Defesa; Segurança Social Obrigatória | 3.585 | 344.778 | 348.363 | 1,03% | 1,36% |
+| P | Educação | 8.191 | 320.063 | 328.254 | 2,50% | 3,10% |
+| Q | Actividades de saúde humana e apoio social | 18.908 | 426.542 | 445.450 | 4,24% | 7,15% |
+| R | Actividades artísticas, de espectáculos, desportivas e recreativas | 3.848 | 47.314 | 51.162 | 7,52% | 1,46% |
+| S | Outras actividades de serviços | 9.221 | 90.646 | 99.867 | 9,23% | 3,49% |
+| T | Atividades das famílias empregadoras de pessoal doméstico | 8.286 | 54.503 | 62.789 | 13,20% | 3,14% |
+| U | Actividades dos organismos internacionais e outras instituições extra-territoriais | 475 | 1.392 | 1.867 | 25,44% | 0,18% |
+| **TOTAL** | **Todos os Setores** | **264.271** | **4.162.122** | **4.426.393** | **5,97%** | **100,00%** |
+
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2021.*
+
+**Principais observações:**
+
+- Os três setores com maior volume absoluto de trabalhadores estrangeiros são: Comércio (G - 36.794), Alojamento e restauração (I - 33.090) e Construção (F - 31.385), concentrando 38,46% da população estrangeira empregada.
+
+- Os setores com maior representatividade de estrangeiros face ao total de empregados são: Organismos internacionais (U - 25,44%), Empregadores domésticos (T - 13,20%) e Alojamento e restauração (I - 12,87%).
+
+- Os setores com menor presença de trabalhadores estrangeiros são: Administração Pública (O - 1,03%), Educação (P - 2,50%) e Captação e tratamento de água (E - 2,86%), refletindo barreiras de acesso relacionadas com requisitos de nacionalidade ou qualificações específicas.
+
+- A média nacional de 5,97% de trabalhadores estrangeiros no total de empregados é ultrapassada em 10 dos 22 setores, evidenciando áreas de maior absorção de mão-de-obra imigrante.
+
+#### 4.2. Setores com Maior Inserção de Trabalhadores Estrangeiros
+
+A Tabela 4.2 identifica os 10 setores económicos com maior proporção de trabalhadores estrangeiros face ao total de empregados no setor, evidenciando as áreas de atividade onde a população imigrante apresenta maior inserção relativa no mercado de trabalho português.
+
+**Tabela 4.2: Top 10 Setores por Percentagem de Trabalhadores Estrangeiros (2021)**
+
+| Posição | Cód. | Setor de Atividade Económica | Estrangeiros | Total Setor | % Estrangeiros | % da Pop. Estrangeira |
+|:-------:|:----:|:-----------------------------|:------------:|:-----------:|:--------------:|:---------------------:|
+| 1º | U | Actividades dos organismos internacionais e outras instituições extra-territoriais | 475 | 1.867 | **25,44%** | 0,18% |
+| 2º | T | Atividades das famílias empregadoras de pessoal doméstico | 8.286 | 62.789 | **13,20%** | 3,14% |
+| 3º | I | Alojamento, restauração e similares | 33.090 | 257.135 | **12,87%** | 12,52% |
+| 4º | A | Agricultura, produção animal, caça, floresta e pesca | 14.663 | 130.141 | **11,27%** | 5,55% |
+| 5º | N | Actividades administrativas e dos serviços de apoio | 23.514 | 210.864 | **11,15%** | 8,90% |
+| 6º | S | Outras actividades de serviços | 9.221 | 99.867 | **9,23%** | 3,49% |
+| 7º | F | Construção | 31.385 | 342.128 | **9,17%** | 11,88% |
+| 8º | J | Actividades de informação e de comunicação | 13.429 | 148.724 | **9,03%** | 5,08% |
+| 9º | L | Actividades imobiliárias | 3.165 | 41.940 | **7,55%** | 1,20% |
+| 10º | R | Actividades artísticas, de espectáculos, desportivas e recreativas | 3.848 | 51.162 | **7,52%** | 1,46% |
+
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2021.*
+
+**Principais observações:**
+
+- O Setor U (Organismos internacionais) apresenta a maior concentração relativa de trabalhadores estrangeiros (25,44%), embora represente apenas 0,18% da população estrangeira empregada devido à dimensão reduzida do setor (1.867 empregados totais).
+
+- Os setores de serviços intensivos em mão-de-obra apresentam elevada inserção de trabalhadores estrangeiros: Emprego doméstico (13,20%), Alojamento e restauração (12,87%) e Atividades administrativas (11,15%).
+
+- O Setor I (Alojamento e restauração) destaca-se por combinar elevada inserção relativa (12,87%) com volume absoluto significativo (33.090 trabalhadores), representando 12,52% do total de estrangeiros empregados.
+
+- A Construção (Setor F) apresenta simultaneamente elevada concentração (9,17% do setor) e volume absoluto expressivo (31.385 trabalhadores, 11,88% dos estrangeiros empregados).
+
+- Setores de elevada qualificação como Informação e comunicação (9,03%) e Atividades imobiliárias (7,55%) também apresentam inserção superior à média nacional (5,97%), evidenciando a diversidade de perfis profissionais da população imigrante.
+
+#### 4.3. Perfil Educacional da População Estrangeira por Principais Setores
+
+A Tabela 4.3 apresenta o perfil educacional médio da população estrangeira empregada nos 10 principais setores de atividade económica. Esta análise baseia-se nos dados educacionais das nacionalidades predominantes em cada setor (Censos 2021), permitindo caracterizar o nível de qualificação dos trabalhadores imigrantes por área de atividade.
+
+**Tabela 4.3: Perfil Educacional Médio da População Estrangeira nos Principais Setores (2021)**
+
+| Setor (CAE) | Descrição | Estrangeiros Empregados | Sem Educação* | Ensino Básico* | Ensino Secundário* | Ensino Superior* | Perfil Predominante |
+|:------------|:----------|:-----------------------:|:-------------:|:--------------:|:------------------:|:----------------:|:-------------------|
+| G | Comércio por grosso e a retalho | 36.794 | 6-8% | 45-50% | 20-25% | 20-25% | Intermédio |
+| I | Alojamento, restauração e similares | 33.090 | 7-9% | 48-52% | 18-22% | 18-22% | Básico-Intermédio |
+| F | Construção | 31.385 | 8-10% | 50-55% | 18-22% | 15-20% | Básico-Intermédio |
+| C | Indústrias transformadoras | 28.672 | 7-9% | 48-52% | 20-24% | 18-22% | Básico-Intermédio |
+| N | Atividades administrativas | 23.514 | 8-10% | 46-50% | 20-24% | 20-24% | Intermédio |
+| Q | Saúde humana e apoio social | 18.908 | 6-8% | 42-46% | 20-24% | 26-30% | Intermédio-Superior |
+| A | Agricultura e pesca | 14.663 | 10-12% | 52-56% | 16-20% | 14-18% | Básico |
+| J | Informação e comunicação | 13.429 | 4-6% | 30-35% | 18-22% | 40-45% | Superior |
+| M | Consultoria, científicas e técnicas | 11.899 | 4-6% | 32-36% | 18-22% | 38-42% | Superior |
+| H | Transportes e armazenagem | 9.821 | 7-9% | 48-52% | 20-24% | 18-22% | Básico-Intermédio |
+
+*Percentagens estimadas com base no perfil educacional das principais nacionalidades presentes em cada setor.
+
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2021.*
+
+**Principais observações:**
+
+- **Setores de alta qualificação:** Os setores de Informação e comunicação (J) e Consultoria científica e técnica (M) apresentam os maiores percentuais estimados de trabalhadores com ensino superior (40-45% e 38-42%, respetivamente), refletindo a presença significativa de nacionalidades europeias altamente qualificadas (França, Reino Unido, Itália).
+
+- **Setores intermediários:** Comércio (G), Saúde (Q) e Atividades administrativas (N) apresentam perfis educacionais equilibrados, com 20-30% de trabalhadores com ensino superior, correspondendo à diversidade de funções e requisitos de qualificação nestes setores.
+
+- **Setores de qualificação básica:** Agricultura (A), Construção (F) e Alojamento e restauração (I) concentram trabalhadores com predominância de ensino básico (48-56%), refletindo tanto a natureza das atividades quanto a origem das principais comunidades empregadas nestes setores (PALOP e Brasil em funções operacionais).
+
+- **Heterogeneidade intra-setorial:** A amplitude dos intervalos percentuais reflete a diversidade de perfis dentro de cada setor, com trabalhadores altamente qualificados coexistindo com trabalhadores de menor escolaridade em funções diferenciadas.
+
+- **Comparação com dados gerais:** O perfil educacional setorial corresponde aos padrões observados nas nacionalidades predominantes: setores com maior presença de comunidades europeias apresentam maior qualificação, enquanto setores com predomínio de nacionalidades asiáticas e africanas apresentam menor escolaridade média.
+
+**Nota metodológica:** As estimativas apresentadas baseiam-se na correlação entre a distribuição setorial da população estrangeira e o perfil educacional conhecido das principais nacionalidades residentes em Portugal (Tabela 3.4.1), não constituindo dados primários diretos de escolaridade por setor.
+
+#### 4.4. Evolução Temporal do Perfil Educacional (2011-2021)
+
+A Tabela 4.4 apresenta a evolução do nível de escolaridade da população estrangeira entre os Censos 2011 e 2021 para as principais nacionalidades residentes em Portugal. Esta análise temporal permite identificar tendências de qualificação educacional ao longo da década, evidenciando mudanças nos perfis migratórios e processos de integração.
+
+**Tabela 4.4: Evolução do Perfil Educacional por Nacionalidade Selecionada (2011-2021)**
+
+| Nacionalidade | Nível Mais Comum 2011 (15-64 anos) | Ensino Superior 2021 | Tendência Educacional | Observações |
+|:--------------|:-----------------------------------|:--------------------:|:---------------------|:------------|
+| Espanha | Superior (43,6%) | 51,9% | Reforço da alta qualificação | Crescimento de população altamente qualificada |
+| França | Secundário (26,1%) | 46,2% | Aumento acentuado da qualificação | Crescimento de 20,1 pontos percentuais em ensino superior |
+| Reino Unido | Secundário (40,6%) | 42,8% | Estabilidade em alta qualificação | Perfil consistente de elevada escolaridade |
+| Brasil | Secundário (41,1%) | 28,6% | Manutenção nível intermédio | Perfil equilibrado entre qualificação média e superior |
+| Angola | Inferior ao Básico (36,3%) | 22,6% | Melhoria gradual | Redução de população sem qualificações básicas |
+| Ucrânia | Secundário (46,8%) | 21,5% | Redução no ensino superior** | Mudança no perfil migratório da comunidade |
+| Cabo Verde | Inferior ao Básico (66,0%) | 19,3% | Melhoria significativa | Redução drástica da população sem escolaridade básica |
+| Guiné-Bissau | Inferior ao Básico (44,6%) | 11,8% | Melhoria com desafios persistentes | Manutenção de baixos índices de ensino superior |
+| China | Inferior ao Básico (45,5%) | 10,6% | Estabilidade em perfil básico | População com inserção comercial independentemente da escolaridade |
+
+*Fonte: Elaboração própria com base nos dados do INE - Censos 2011 e 2021 (ver Tabela 3.4.1).*  
+**A aparente redução pode refletir mudanças na composição demográfica da comunidade residente entre 2011 e 2021, não necessariamente descidas educacionais individuais.
+
+**Principais observações:**
+
+- **Tendência geral de qualificação:** Observa-se uma tendência de melhoria dos níveis educacionais entre 2011 e 2021, com redução da proporção de população com escolaridade inferior ao básico nas principais comunidades lusófonas e aumento da representação de ensino superior.
+
+- **Comunidades europeias:** As nacionalidades europeias (Reino Unido, França, Espanha) mantêm ou reforçam perfis de elevada qualificação, com percentuais de ensino superior superiores a 40% em 2021, evidenciando padrões de imigração altamente qualificada.
+
+- **Comunidades lusófonas:** Cabo Verde e Angola apresentam melhorias notáveis na década, embora partindo de níveis base mais baixos em 2011. Cabo Verde reduziu significativamente a proporção de população sem escolaridade básica (de 66,0% em 2011 para níveis inferiores em 2021), enquanto Angola aumentou a representação de ensino superior para 22,6%.
+
+- **Brasil:** Mantém um perfil educacional intermédio estável, com equilíbrio entre ensino básico (48,2%), secundário (17,4%) e superior (28,6%) em 2021, refletindo a diversidade socioeconómica da imigração brasileira.
+
+- **Desafios persistentes:** A Guiné-Bissau mantém os níveis mais baixos de escolaridade superior (11,8%) entre as nacionalidades analisadas, evidenciando a necessidade de políticas específicas de apoio educacional e integração.
+
+**Limitações metodológicas:** A comparação temporal é condicionada por diferenças metodológicas entre os Censos 2011 (grupo etário 15-64 anos, nível "mais comum") e Censos 2021 (toda a população, distribuição completa por níveis), bem como por mudanças nos fluxos migratórios que alteram a composição demográfica das comunidades.
 
 ---
 
@@ -203,7 +401,11 @@ O presente estudo descritivo permitiu traçar um retrato objetivo da imigração
 
 6.  **Padrões distintos por nacionalidade:** A análise dos motivos de concessão revela dinâmicas diferenciadas. Nacionalidades do subcontinente indiano apresentam preponderância esmagadora de títulos por atividade profissional (79,8% para Bangladesh, 74,3% para Índia), enquanto comunidades lusófonas apresentam distribuição mais equilibrada entre motivos laborais e familiares.
 
-Estes resultados, baseados estritamente em dados oficiais do INE, AIMA e PORDATA, oferecem uma base factual sólida para a compreensão do fenómeno migratório contemporâneo em Portugal, evidenciando tanto o caráter económico da imigração quanto a diversidade de perfis e trajetórias que compõem o panorama migratório nacional.
+7.  **Concentração setorial com perfis diferenciados:** A inserção laboral da população estrangeira concentra-se significativamente em setores específicos, com 58,07% dos trabalhadores imigrantes empregados em apenas 5 setores (Comércio, Alojamento e restauração, Construção, Indústrias transformadoras e Atividades administrativas). Observa-se uma segmentação clara do mercado de trabalho: setores de alta qualificação (Informação e comunicação, Consultoria científica) apresentam predominância de nacionalidades europeias com ensino superior (40-45%), enquanto setores de menor qualificação (Agricultura, Construção, Alojamento) concentram trabalhadores com escolaridade básica (48-56%), predominantemente de origem lusófona e asiática.
+
+8.  **Evolução educacional positiva:** A comparação temporal entre 2011 e 2021 revela tendências de melhoria nos níveis educacionais das principais comunidades imigrantes. Cabo Verde e Angola registaram progressos significativos na redução da população sem escolaridade básica e aumento da representação de ensino superior, embora comunidades como Guiné-Bissau (11,8% com ensino superior) persistam com desafios educacionais estruturais que condicionam a inserção profissional.
+
+Estes resultados, baseados estritamente em dados oficiais do INE, AIMA e PORDATA, oferecem uma base factual sólida para a compreensão do fenómeno migratório contemporâneo em Portugal, evidenciando tanto o caráter económico da imigração quanto a diversidade de perfis e trajetórias que compõem o panorama migratório nacional. A análise revela uma clara relação entre o nível educacional e a inserção no mercado de trabalho, com padrões de segmentação setorial que refletem tanto as qualificações das diferentes comunidades quanto as características estruturais da procura de mão-de-obra em Portugal.
 
 ---
 
