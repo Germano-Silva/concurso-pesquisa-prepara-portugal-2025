@@ -2,7 +2,7 @@
 ========================================================================
 ETL EDUCACAO CONSOLIDADO - DATASET TEMPORAL 2011 + 2021
 ========================================================================
-Data de Geracao: 2025-12-16 12:03:36
+Data de Geracao: 2025-12-16 22:27:59
 Versao: 3.0-CONSOLIDADO-TEMPORAL
 Fonte: INE Censos 2011 + 2021
 Modelo: Star Schema Unificado

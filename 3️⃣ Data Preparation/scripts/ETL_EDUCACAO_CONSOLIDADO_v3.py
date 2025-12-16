@@ -154,6 +154,8 @@ class Extrator2011:
         self.logger.info("Processando dados educacionais de 2011...")
         
         registros_educacao = []
+        arquivos_processados = []
+        arquivos_sem_dados = []
         
         # Mapeamento de subcategorias para nivel_educacao_id
         mapa_niveis = {
@@ -170,8 +172,20 @@ class Extrator2011:
             # Mapear nome do arquivo para nacionalidade padronizada
             nome_padronizado = Config.MAPEAMENTO_NACIONALIDADES.get(nome_arquivo, nome_arquivo)
             
-            # Filtrar linhas de nivel de ensino
-            df_ensino = df[df['Categoria'].str.contains('N.VEL DE ENSINO', case=False, na=False)]
+            # Filtrar linhas de nivel de ensino (CORRIGIDO: aceita NÍVEL com ou sem acento)
+            df_ensino = df[df['Categoria'].str.contains(
+                r'N[ÍI]VEL\s+DE\s+ENSINO',
+                case=False,
+                na=False,
+                regex=True
+            )]
+            
+            if df_ensino.empty:
+                arquivos_sem_dados.append(nome_arquivo)
+                self.logger.info(f"⚠️  {nome_arquivo}: Sem dados de educação")
+                continue
+            
+            registros_antes = len(registros_educacao)
             
             for idx, row in df_ensino.iterrows():
                 try:
@@ -197,10 +211,17 @@ class Extrator2011:
                             'ano_referencia': 2011
                         })
                 except Exception as e:
-                    self.logger.erro(f"Erro ao processar linha: {e}")
+                    self.logger.erro(f"Erro ao processar linha {idx} de {nome_arquivo}: {e}")
                     continue
+            
+            registros_adicionados = len(registros_educacao) - registros_antes
+            if registros_adicionados > 0:
+                arquivos_processados.append(f"{nome_arquivo} ({registros_adicionados} registros)")
         
-        self.logger.sucesso(f"Processados {len(registros_educacao)} registros educacionais de 2011")
+        self.logger.sucesso(f"Arquivos processados ({len(arquivos_processados)}): {', '.join(arquivos_processados)}")
+        if arquivos_sem_dados:
+            self.logger.info(f"Arquivos sem dados ({len(arquivos_sem_dados)}): {', '.join(arquivos_sem_dados)}")
+        self.logger.sucesso(f"Total: {len(registros_educacao)} registros educacionais de 2011")
         return pd.DataFrame(registros_educacao) if registros_educacao else pd.DataFrame()
     
     def _limpar_numero(self, valor):
@@ -427,8 +448,9 @@ class ConsolidadorTemporal:
                 perc_sec = (ensino_secundario / total_pop) * 100
                 perc_sup = (ensino_superior / total_pop) * 100
                 
-                # Indice educacional (simplificado)
-                indice = (perc_basico * 0.25 + perc_sec * 0.5 + perc_sup * 1.0) / 100
+                # Índice educacional padronizado (escala 0-10)
+                # Fórmula: (% sem_edu * 0.0 + % básico * 2.5 + % secund * 6.0 + % superior * 10.0) / 100
+                indice = (perc_sem * 0.0 + perc_basico * 2.5 + perc_sec * 6.0 + perc_sup * 10.0) / 100
             else:
                 perc_sem = perc_basico = perc_sec = perc_sup = indice = 0.0
             
