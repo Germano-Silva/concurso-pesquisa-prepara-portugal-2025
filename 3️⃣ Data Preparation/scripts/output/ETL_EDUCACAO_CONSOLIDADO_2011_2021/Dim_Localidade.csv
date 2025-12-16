@@ -1,0 +1,345 @@
+localidade_id,nome_localidade,nivel_administrativo,codigo_regiao
+1,Portugal,País,OUTRO
+2,Continente,NUTS I,OUTRO
+3,Norte,NUTS I,N
+4,Alto Minho,Município,OUTRO
+5,Arcos de Valdevez,Município,OUTRO
+6,Caminha,Município,OUTRO
+7,Melgaço,Município,OUTRO
+8,Monção,Município,OUTRO
+9,Paredes de Coura,Município,OUTRO
+10,Ponte da Barca,Município,OUTRO
+11,Ponte de Lima,Município,OUTRO
+12,Valença,Município,OUTRO
+13,Viana do Castelo,Município,OUTRO
+14,Vila Nova de Cerveira,Município,OUTRO
+15,Cávado,Município,OUTRO
+16,Amares,Município,OUTRO
+17,Barcelos,Município,OUTRO
+18,Braga,Município,OUTRO
+19,Esposende,Município,OUTRO
+20,Terras de Bouro,Município,OUTRO
+21,Vila Verde,Município,OUTRO
+22,Ave,Município,OUTRO
+23,Cabeceiras de Basto,Município,OUTRO
+24,Fafe,Município,OUTRO
+25,Guimarães,Município,OUTRO
+26,Mondim de Basto,Município,OUTRO
+27,Póvoa de Lanhoso,Município,OUTRO
+28,Vieira do Minho,Município,OUTRO
+29,Vila Nova de Famalicão,Município,OUTRO
+30,Vizela,Município,OUTRO
+31,Área Metropolitana do Porto,Município,OUTRO
+32,Arouca,Município,OUTRO
+33,Espinho,Município,OUTRO
+34,Gondomar,Município,OUTRO
+35,Maia,Município,OUTRO
+36,Matosinhos,Município,OUTRO
+37,Oliveira de Azeméis,Município,OUTRO
+38,Paredes,Município,OUTRO
+39,Porto,Município,OUTRO
+40,Póvoa de Varzim,Município,OUTRO
+41,Santa Maria da Feira,Município,OUTRO
+42,Santo Tirso,Município,OUTRO
+43,São João da Madeira,NUTS I,MD
+44,Trofa,Município,OUTRO
+45,Vale de Cambra,Município,OUTRO
+46,Valongo,Município,OUTRO
+47,Vila do Conde,Município,OUTRO
+48,Vila Nova de Gaia,Município,OUTRO
+49,Alto Tâmega,Município,OUTRO
+50,Boticas,Município,OUTRO
+51,Chaves,Município,OUTRO
+52,Montalegre,Município,OUTRO
+53,Ribeira de Pena,Município,OUTRO
+54,Valpaços,Município,OUTRO
+55,Vila Pouca de Aguiar,Município,OUTRO
+56,Tâmega e Sousa,Município,OUTRO
+57,Amarante,Município,OUTRO
+58,Baião,Município,OUTRO
+59,Castelo de Paiva,Município,OUTRO
+60,Celorico de Basto,Município,OUTRO
+61,Cinfães,Município,OUTRO
+62,Felgueiras,Município,OUTRO
+63,Lousada,Município,OUTRO
+64,Marco de Canaveses,Município,OUTRO
+65,Paços de Ferreira,Município,OUTRO
+66,Penafiel,Município,OUTRO
+67,Resende,Município,OUTRO
+68,Douro,Município,OUTRO
+69,Alijó,Município,OUTRO
+70,Armamar,Município,OUTRO
+71,Carrazeda de Ansiães,Município,OUTRO
+72,Freixo de Espada à Cinta,Município,OUTRO
+73,Lamego,Município,OUTRO
+74,Mesão Frio,Município,OUTRO
+75,Moimenta da Beira,Município,OUTRO
+76,Murça,Município,OUTRO
+77,Penedono,Município,OUTRO
+78,Peso da Régua,Município,OUTRO
+79,Sabrosa,Município,OUTRO
+80,Santa Marta de Penaguião,Município,OUTRO
+81,São João da Pesqueira,Município,OUTRO
+82,Sernancelhe,Município,OUTRO
+83,Tabuaço,Município,OUTRO
+84,Tarouca,Município,OUTRO
+85,Torre de Moncorvo,Município,OUTRO
+86,Vila Nova de Foz Côa,Município,OUTRO
+87,Vila Real,Município,OUTRO
+88,Terras de Trás-os-Montes,Município,OUTRO
+89,Alfândega da Fé,Município,OUTRO
+90,Bragança,Município,OUTRO
+91,Macedo de Cavaleiros,Município,OUTRO
+92,Miranda do Douro,Município,OUTRO
+93,Mirandela,Município,OUTRO
+94,Mogadouro,Município,OUTRO
+95,Vila Flor,Município,OUTRO
+96,Vimioso,Município,OUTRO
+97,Vinhais,Município,OUTRO
+98,Centro,NUTS I,C
+99,Oeste,Município,OUTRO
+100,Alcobaça,Município,OUTRO
+101,Alenquer,Município,OUTRO
+102,Arruda dos Vinhos,Município,OUTRO
+103,Bombarral,Município,OUTRO
+104,Cadaval,Município,OUTRO
+105,Caldas da Rainha,Município,OUTRO
+106,Lourinhã,Município,OUTRO
+107,Nazaré,Município,OUTRO
+108,Óbidos,Município,OUTRO
+109,Peniche,Município,OUTRO
+110,Sobral de Monte Agraço,Município,OUTRO
+111,Torres Vedras,Município,OUTRO
+112,Região de Aveiro,Município,OUTRO
+113,Águeda,Município,OUTRO
+114,Albergaria-a-Velha,Município,OUTRO
+115,Anadia,Município,OUTRO
+116,Aveiro,Município,OUTRO
+117,Estarreja,Município,OUTRO
+118,Ílhavo,Município,OUTRO
+119,Murtosa,Município,OUTRO
+120,Oliveira do Bairro,Município,OUTRO
+121,Ovar,Município,OUTRO
+122,Sever do Vouga,Município,OUTRO
+123,Vagos,Município,OUTRO
+124,Região de Coimbra,Município,OUTRO
+125,Arganil,Município,OUTRO
+126,Cantanhede,Município,OUTRO
+127,Coimbra,Município,OUTRO
+128,Condeixa-a-Nova,Município,OUTRO
+129,Figueira da Foz,Município,OUTRO
+130,Góis,Município,OUTRO
+131,Lousã,Município,OUTRO
+132,Mealhada,Município,OUTRO
+133,Mira,Município,OUTRO
+134,Miranda do Corvo,Município,OUTRO
+135,Montemor-o-Velho,Município,OUTRO
+136,Mortágua,Município,OUTRO
+137,Oliveira do Hospital,Município,OUTRO
+138,Pampilhosa da Serra,Município,OUTRO
+139,Penacova,Município,OUTRO
+140,Penela,Município,OUTRO
+141,Soure,Município,OUTRO
+142,Tábua,Município,OUTRO
+143,Vila Nova de Poiares,Município,OUTRO
+144,Região de Leiria,Município,OUTRO
+145,Alvaiázere,Município,OUTRO
+146,Ansião,Município,OUTRO
+147,Batalha,Município,OUTRO
+148,Castanheira de Pêra,Município,OUTRO
+149,Figueiró dos Vinhos,Município,OUTRO
+150,Leiria,Município,OUTRO
+151,Marinha Grande,Município,OUTRO
+152,Pedrógão Grande,Município,OUTRO
+153,Pombal,Município,OUTRO
+154,Porto de Mós,Município,OUTRO
+155,Viseu Dão Lafões,Município,OUTRO
+156,Aguiar da Beira,Município,OUTRO
+157,Carregal do Sal,Município,OUTRO
+158,Castro Daire,Município,OUTRO
+159,Mangualde,Município,OUTRO
+160,Nelas,Município,OUTRO
+161,Oliveira de Frades,Município,OUTRO
+162,Penalva do Castelo,Município,OUTRO
+163,Santa Comba Dão,Município,OUTRO
+164,São Pedro do Sul,Município,OUTRO
+165,Sátão,Município,OUTRO
+166,Tondela,Município,OUTRO
+167,Vila Nova de Paiva,Município,OUTRO
+168,Viseu,Município,OUTRO
+169,Vouzela,Município,OUTRO
+170,Beira Baixa,Município,OUTRO
+171,Castelo Branco,Município,OUTRO
+172,Idanha-a-Nova,Município,OUTRO
+173,Oleiros,Município,OUTRO
+174,Penamacor,Município,OUTRO
+175,Proença-a-Nova,Município,OUTRO
+176,Vila Velha de Ródão,Município,OUTRO
+177,Médio Tejo,Município,OUTRO
+178,Abrantes,Município,OUTRO
+179,Alcanena,Município,OUTRO
+180,Constância,Município,OUTRO
+181,Entroncamento,Município,OUTRO
+182,Ferreira do Zêzere,Município,OUTRO
+183,Mação,Município,OUTRO
+184,Ourém,Município,OUTRO
+185,Sardoal,Município,OUTRO
+186,Sertã,Município,OUTRO
+187,Tomar,Município,OUTRO
+188,Torres Novas,Município,OUTRO
+189,Vila de Rei,Município,OUTRO
+190,Vila Nova da Barquinha,Município,OUTRO
+191,Beiras e Serra da Estrela,Município,OUTRO
+192,Almeida,Município,OUTRO
+193,Belmonte,Município,OUTRO
+194,Celorico da Beira,Município,OUTRO
+195,Covilhã,Município,OUTRO
+196,Figueira de Castelo Rodrigo,Município,OUTRO
+197,Fornos de Algodres,Município,OUTRO
+198,Fundão,Município,OUTRO
+199,Gouveia,Município,OUTRO
+200,Guarda,Município,OUTRO
+201,Manteigas,Município,OUTRO
+202,Mêda,Município,OUTRO
+203,Pinhel,Município,OUTRO
+204,Sabugal,Município,OUTRO
+205,Seia,Município,OUTRO
+206,Trancoso,Município,OUTRO
+207,Área Metropolitana de Lisboa,NUTS II,LVT
+208,Área Metropolitana de Lisboa,NUTS II,LVT
+209,Alcochete,Município,OUTRO
+210,Almada,Município,OUTRO
+211,Amadora,Município,OUTRO
+212,Barreiro,Município,OUTRO
+213,Cascais,Município,OUTRO
+214,Lisboa,NUTS I,LVT
+215,Loures,Município,OUTRO
+216,Mafra,Município,OUTRO
+217,Moita,Município,OUTRO
+218,Montijo,Município,OUTRO
+219,Odivelas,Município,OUTRO
+220,Oeiras,Município,OUTRO
+221,Palmela,Município,OUTRO
+222,Seixal,Município,OUTRO
+223,Sesimbra,Município,OUTRO
+224,Setúbal,Município,OUTRO
+225,Sintra,Município,OUTRO
+226,Vila Franca de Xira,Município,OUTRO
+227,Alentejo,NUTS I,ALE
+228,Alentejo Litoral,NUTS I,ALE
+229,Alcácer do Sal,Município,OUTRO
+230,Grândola,Município,OUTRO
+231,Odemira,Município,OUTRO
+232,Santiago do Cacém,Município,OUTRO
+233,Sines,Município,OUTRO
+234,Baixo Alentejo,NUTS I,ALE
+235,Aljustrel,Município,OUTRO
+236,Almodôvar,Município,OUTRO
+237,Alvito,Município,OUTRO
+238,Barrancos,Município,OUTRO
+239,Beja,Município,OUTRO
+240,Castro Verde,Município,OUTRO
+241,Cuba,Município,OUTRO
+242,Ferreira do Alentejo,NUTS I,ALE
+243,Mértola,Município,OUTRO
+244,Moura,Município,OUTRO
+245,Ourique,Município,OUTRO
+246,Serpa,Município,OUTRO
+247,Vidigueira,Município,OUTRO
+248,Lezíria do Tejo,Município,OUTRO
+249,Almeirim,Município,OUTRO
+250,Alpiarça,Município,OUTRO
+251,Azambuja,Município,OUTRO
+252,Benavente,Município,OUTRO
+253,Cartaxo,Município,OUTRO
+254,Chamusca,Município,OUTRO
+255,Coruche,Município,OUTRO
+256,Golegã,Município,OUTRO
+257,Rio Maior,Município,OUTRO
+258,Salvaterra de Magos,Município,OUTRO
+259,Santarém,Município,OUTRO
+260,Alto Alentejo,NUTS I,ALE
+261,Alter do Chão,Município,OUTRO
+262,Arronches,Município,OUTRO
+263,Avis,Município,OUTRO
+264,Campo Maior,Município,OUTRO
+265,Castelo de Vide,Município,OUTRO
+266,Crato,Município,OUTRO
+267,Elvas,Município,OUTRO
+268,Fronteira,Município,OUTRO
+269,Gavião,Município,OUTRO
+270,Marvão,Município,OUTRO
+271,Monforte,Município,OUTRO
+272,Nisa,Município,OUTRO
+273,Ponte de Sor,Município,OUTRO
+274,Portalegre,Município,OUTRO
+275,Sousel,Município,OUTRO
+276,Alentejo Central,NUTS I,ALE
+277,Alandroal,Município,OUTRO
+278,Arraiolos,Município,OUTRO
+279,Borba,Município,OUTRO
+280,Estremoz,Município,OUTRO
+281,Évora,Município,OUTRO
+282,Montemor-o-Novo,Município,OUTRO
+283,Mora,Município,OUTRO
+284,Mourão,Município,OUTRO
+285,Portel,Município,OUTRO
+286,Redondo,Município,OUTRO
+287,Reguengos de Monsaraz,Município,OUTRO
+288,Vendas Novas,Município,OUTRO
+289,Viana do Alentejo,NUTS I,ALE
+290,Vila Viçosa,Município,OUTRO
+291,Algarve,NUTS I,ALG
+292,Algarve,NUTS I,ALG
+293,Albufeira,Município,OUTRO
+294,Alcoutim,Município,OUTRO
+295,Aljezur,Município,OUTRO
+296,Castro Marim,Município,OUTRO
+297,Faro,Município,OUTRO
+298,Lagoa,Município,OUTRO
+299,Lagos,Município,OUTRO
+300,Loulé,Município,OUTRO
+301,Monchique,Município,OUTRO
+302,Olhão,Município,OUTRO
+303,Portimão,Município,OUTRO
+304,São Brás de Alportel,Município,OUTRO
+305,Silves,Município,OUTRO
+306,Tavira,Município,OUTRO
+307,Vila do Bispo,Município,OUTRO
+308,Vila Real de Santo António,Município,OUTRO
+309,Região Autónoma dos Açores,NUTS II,AZ
+310,Região Autónoma dos Açores,NUTS II,AZ
+311,Região Autónoma dos Açores,NUTS II,AZ
+312,Angra do Heroísmo,Município,OUTRO
+313,Calheta,Município,OUTRO
+314,Corvo,Município,OUTRO
+315,Horta,Município,OUTRO
+316,Lagoa,Município,OUTRO
+317,Lajes das Flores,Município,OUTRO
+318,Lajes do Pico,Município,OUTRO
+319,Madalena,Município,OUTRO
+320,Nordeste,Município,OUTRO
+321,Ponta Delgada,Município,OUTRO
+322,Povoação,Município,OUTRO
+323,Ribeira Grande,Município,OUTRO
+324,Santa Cruz da Graciosa,Município,OUTRO
+325,Santa Cruz das Flores,Município,OUTRO
+326,São Roque do Pico,Município,OUTRO
+327,Velas,Município,OUTRO
+328,Vila da Praia da Vitória,Município,OUTRO
+329,Vila do Porto,Município,OUTRO
+330,Vila Franca do Campo,Município,OUTRO
+331,Região Autónoma da Madeira,NUTS II,MD
+332,Região Autónoma da Madeira,NUTS II,MD
+333,Região Autónoma da Madeira,NUTS II,MD
+334,Calheta,Município,OUTRO
+335,Câmara de Lobos,Município,OUTRO
+336,Funchal,Município,OUTRO
+337,Machico,Município,OUTRO
+338,Ponta do Sol,Município,OUTRO
+339,Porto Moniz,Município,OUTRO
+340,Porto Santo,Município,OUTRO
+341,Ribeira Brava,Município,OUTRO
+342,Santa Cruz,Município,OUTRO
+343,Santana,Município,OUTRO
+344,São Vicente,Município,OUTRO

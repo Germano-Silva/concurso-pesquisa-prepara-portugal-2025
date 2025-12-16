@@ -1,0 +1,151 @@
+ano,fonte,motivo_raw,nacionalidade_aima_raw,total_motivo
+2020,RIFA,Reagrupamento Familiar,Angola,2062
+2020,RIFA,Reagrupamento Familiar,Nepal,1599
+2020,RIFA,Reagrupamento Familiar,Brasil,19855
+2020,RIFA,Reagrupamento Familiar,Reino Unido,0
+2020,RIFA,Reagrupamento Familiar,Índia,1356
+2020,RIFA,Reagrupamento Familiar,Guiné-Bissau,1064
+2020,RIFA,Reagrupamento Familiar,Espanha,0
+2020,RIFA,Reagrupamento Familiar,Itália,0
+2020,RIFA,Reagrupamento Familiar,Cabo Verde,1373
+2020,RIFA,Reagrupamento Familiar,França,0
+2020,RIFA,Atividade Profissional,Angola,512
+2020,RIFA,Atividade Profissional,Nepal,2235
+2020,RIFA,Atividade Profissional,Brasil,15335
+2020,RIFA,Atividade Profissional,Reino Unido,0
+2020,RIFA,Atividade Profissional,Índia,5551
+2020,RIFA,Atividade Profissional,Guiné-Bissau,486
+2020,RIFA,Atividade Profissional,Espanha,0
+2020,RIFA,Atividade Profissional,Itália,0
+2020,RIFA,Atividade Profissional,Cabo Verde,693
+2020,RIFA,Atividade Profissional,França,0
+2020,RIFA,Estudo,Angola,1705
+2020,RIFA,Estudo,Nepal,12
+2020,RIFA,Estudo,Brasil,5407
+2020,RIFA,Estudo,Reino Unido,0
+2020,RIFA,Estudo,Índia,79
+2020,RIFA,Estudo,Guiné-Bissau,1290
+2020,RIFA,Estudo,Espanha,0
+2020,RIFA,Estudo,Itália,0
+2020,RIFA,Estudo,Cabo Verde,1913
+2020,RIFA,Estudo,França,0
+2020,RIFA,CRs,Angola,0
+2020,RIFA,CRs,Nepal,0
+2020,RIFA,CRs,Brasil,1
+2020,RIFA,CRs,Reino Unido,13154
+2020,RIFA,CRs,Índia,0
+2020,RIFA,CRs,Guiné-Bissau,0
+2020,RIFA,CRs,Espanha,2837
+2020,RIFA,CRs,Itália,4479
+2020,RIFA,CRs,Cabo Verde,2
+2020,RIFA,CRs,França,4072
+2020,RIFA,Outros Motivos,Angola,555
+2020,RIFA,Outros Motivos,Nepal,35
+2020,RIFA,Outros Motivos,Brasil,1648
+2020,RIFA,Outros Motivos,Reino Unido,0
+2020,RIFA,Outros Motivos,Índia,194
+2020,RIFA,Outros Motivos,Guiné-Bissau,537
+2020,RIFA,Outros Motivos,Espanha,0
+2020,RIFA,Outros Motivos,Itália,0
+2020,RIFA,Outros Motivos,Cabo Verde,241
+2020,RIFA,Outros Motivos,França,0
+2021,RIFA,Reagrupamento Familiar (%),Brasil,12255
+2021,RIFA,Reagrupamento Familiar (%),Índia,1051
+2021,RIFA,Reagrupamento Familiar (%),Angola,1750
+2021,RIFA,Reagrupamento Familiar (%),Cabo Verde,824
+2021,RIFA,Reagrupamento Familiar (%),Guiné-Bissau,629
+2021,RIFA,Reagrupamento Familiar (%),Nepal,737
+2021,RIFA,Reagrupamento Familiar (%),Estados Unidos da América,96
+2021,RIFA,Reagrupamento Familiar (%),Bangladesh,429
+2021,RIFA,Reagrupamento Familiar (%),Paquistão,632
+2021,RIFA,Reagrupamento Familiar (%),São Tomé e Príncipe,447
+2021,RIFA,Atividade Profissional (%),Brasil,17614
+2021,RIFA,Atividade Profissional (%),Índia,5841
+2021,RIFA,Atividade Profissional (%),Angola,813
+2021,RIFA,Atividade Profissional (%),Cabo Verde,789
+2021,RIFA,Atividade Profissional (%),Guiné-Bissau,933
+2021,RIFA,Atividade Profissional (%),Nepal,1893
+2021,RIFA,Atividade Profissional (%),Estados Unidos da América,562
+2021,RIFA,Atividade Profissional (%),Bangladesh,1554
+2021,RIFA,Atividade Profissional (%),Paquistão,1103
+2021,RIFA,Atividade Profissional (%),São Tomé e Príncipe,422
+2021,RIFA,Estudo (%),Brasil,4256
+2021,RIFA,Estudo (%),Índia,96
+2021,RIFA,Estudo (%),Angola,1124
+2021,RIFA,Estudo (%),Cabo Verde,1648
+2021,RIFA,Estudo (%),Guiné-Bissau,1315
+2021,RIFA,Estudo (%),Nepal,3
+2021,RIFA,Estudo (%),Estados Unidos da América,60
+2021,RIFA,Estudo (%),Bangladesh,47
+2021,RIFA,Estudo (%),Paquistão,58
+2021,RIFA,Estudo (%),São Tomé e Príncipe,744
+2021,RIFA,CRs (%),Brasil,3665
+2021,RIFA,CRs (%),Índia,155
+2021,RIFA,CRs (%),Angola,384
+2021,RIFA,CRs (%),Cabo Verde,369
+2021,RIFA,CRs (%),Guiné-Bissau,427
+2021,RIFA,CRs (%),Nepal,61
+2021,RIFA,CRs (%),Estados Unidos da América,245
+2021,RIFA,CRs (%),Bangladesh,64
+2021,RIFA,CRs (%),Paquistão,114
+2021,RIFA,CRs (%),São Tomé e Príncipe,162
+2021,RIFA,Outros Motivos (%),Brasil,1616
+2021,RIFA,Outros Motivos (%),Índia,259
+2021,RIFA,Outros Motivos (%),Angola,498
+2021,RIFA,Outros Motivos (%),Cabo Verde,256
+2021,RIFA,Outros Motivos (%),Guiné-Bissau,438
+2021,RIFA,Outros Motivos (%),Nepal,63
+2021,RIFA,Outros Motivos (%),Estados Unidos da América,1436
+2021,RIFA,Outros Motivos (%),Bangladesh,41
+2021,RIFA,Outros Motivos (%),Paquistão,98
+2021,RIFA,Outros Motivos (%),São Tomé e Príncipe,202
+2022,RIFA,Reagrupamento Familiar (%),Brasil,14880
+2022,RIFA,Reagrupamento Familiar (%),Índia,1268
+2022,RIFA,Reagrupamento Familiar (%),Angola,2179
+2022,RIFA,Reagrupamento Familiar (%),Bangladesh,1058
+2022,RIFA,Reagrupamento Familiar (%),Cabo Verde,1007
+2022,RIFA,Reagrupamento Familiar (%),Guiné-Bissau,690
+2022,RIFA,Reagrupamento Familiar (%),Paquistão,991
+2022,RIFA,Reagrupamento Familiar (%),Nepal,1273
+2022,RIFA,Reagrupamento Familiar (%),Estados Unidos da América,164
+2022,RIFA,Reagrupamento Familiar (%),Reino Unido,66
+2022,RIFA,Atividade Profissional (%),Brasil,22707
+2022,RIFA,Atividade Profissional (%),Índia,5509
+2022,RIFA,Atividade Profissional (%),Angola,1804
+2022,RIFA,Atividade Profissional (%),Bangladesh,4910
+2022,RIFA,Atividade Profissional (%),Cabo Verde,1386
+2022,RIFA,Atividade Profissional (%),Guiné-Bissau,2037
+2022,RIFA,Atividade Profissional (%),Paquistão,2586
+2022,RIFA,Atividade Profissional (%),Nepal,2450
+2022,RIFA,Atividade Profissional (%),Estados Unidos da América,852
+2022,RIFA,Atividade Profissional (%),Reino Unido,422
+2022,RIFA,Estudo (%),Brasil,3913
+2022,RIFA,Estudo (%),Índia,67
+2022,RIFA,Estudo (%),Angola,1374
+2022,RIFA,Estudo (%),Bangladesh,31
+2022,RIFA,Estudo (%),Cabo Verde,1627
+2022,RIFA,Estudo (%),Guiné-Bissau,775
+2022,RIFA,Estudo (%),Paquistão,48
+2022,RIFA,Estudo (%),Nepal,4
+2022,RIFA,Estudo (%),Estados Unidos da América,33
+2022,RIFA,Estudo (%),Reino Unido,12
+2022,RIFA,CRs (%),Brasil,4493
+2022,RIFA,CRs (%),Índia,193
+2022,RIFA,CRs (%),Angola,590
+2022,RIFA,CRs (%),Bangladesh,98
+2022,RIFA,CRs (%),Cabo Verde,473
+2022,RIFA,CRs (%),Guiné-Bissau,436
+2022,RIFA,CRs (%),Paquistão,192
+2022,RIFA,CRs (%),Nepal,100
+2022,RIFA,CRs (%),Estados Unidos da América,289
+2022,RIFA,CRs (%),Reino Unido,329
+2022,RIFA,Outros Motivos (%),Brasil,2319
+2022,RIFA,Outros Motivos (%),Índia,378
+2022,RIFA,Outros Motivos (%),Angola,992
+2022,RIFA,Outros Motivos (%),Bangladesh,55
+2022,RIFA,Outros Motivos (%),Cabo Verde,227
+2022,RIFA,Outros Motivos (%),Guiné-Bissau,301
+2022,RIFA,Outros Motivos (%),Paquistão,184
+2022,RIFA,Outros Motivos (%),Nepal,35
+2022,RIFA,Outros Motivos (%),Estados Unidos da América,1953
+2022,RIFA,Outros Motivos (%),Reino Unido,2165
