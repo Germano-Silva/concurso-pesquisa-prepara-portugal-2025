@@ -1,0 +1,498 @@
+erDiagram
+    %% ============================================================
+    %% DIAGRAMA ER UNIFICADO - STAR SCHEMA
+    %% Pipeline ETL Completo: Educação + Laboral + AIMA
+    %% Nomenclatura: Dim_ (Dimensões) | Fact_ (Fatos)
+    %% ============================================================
+    %% Data de Criação: 15/12/2025
+    %% Fonte: INE Censos 2011 + Integração AIMA
+    %% Total: 19 Dimensões + 25 Fatos = 44 Tabelas
+    %% ============================================================
+
+    %% ============================================================
+    %% SEÇÃO 1: DIMENSÕES BASE (Compartilhadas por todos os domínios)
+    %% ============================================================
+    
+    Dim_PopulacaoResidente {
+        int populacao_id PK
+        int total_populacao
+        int ano_referencia
+    }
+    
+    Dim_Nacionalidade {
+        int nacionalidade_id PK
+        varchar nome_nacionalidade
+        varchar codigo_pais
+        varchar continente
+    }
+    
+    Dim_Localidade {
+        int localidade_id PK
+        varchar nome_localidade
+        varchar nivel_administrativo
+        varchar codigo_regiao
+    }
+    
+    Dim_Sexo {
+        int sexo_id PK
+        varchar tipo_sexo
+    }
+    
+    Dim_GrupoEtario {
+        int grupoetario_id PK
+        varchar faixa_etaria
+        varchar descricao
+    }
+
+    %% ============================================================
+    %% SEÇÃO 2: FATOS POPULACIONAIS BASE
+    %% ============================================================
+    
+    Fact_PopulacaoPorNacionalidade {
+        int populacao_nacional_id PK
+        int nacionalidade_id FK
+        int populacao_id FK
+        int populacao_total
+        int masculino
+        int feminino
+        decimal percentagem_total
+    }
+    
+    Fact_PopulacaoPorNacionalidadeSexo {
+        int populacao_nacional_sexo_id PK
+        int nacionalidade_id FK
+        int sexo_id FK
+        int populacao_id FK
+        int populacao_masculino
+        int populacao_feminino
+        decimal percentagem_masculino
+        decimal percentagem_feminino
+    }
+    
+    Fact_PopulacaoPorLocalidade {
+        int populacao_local_id PK
+        int localidade_id FK
+        int populacao_id FK
+        int populacao_total
+        int populacao_portuguesa
+        int populacao_estrangeira
+        int apatridas
+    }
+    
+    Fact_PopulacaoPorLocalidadeNacionalidade {
+        int populacao_local_nacional_id PK
+        int populacao_local_id FK
+        int nacionalidade_id FK
+        int populacao_nacional
+    }
+    
+    Fact_PopulacaoPorGrupoEtario {
+        int populacao_grupoetario_id PK
+        int populacao_id FK
+        int grupoetario_id FK
+        int nacionalidade_id FK
+        int populacao_grupo
+        decimal percentagem_grupo
+        decimal idade_media
+    }
+    
+    Fact_EvolucaoTemporal {
+        int evolucao_id PK
+        int nacionalidade_id FK
+        int populacao_id FK
+        int ano_inicio
+        int populacao_inicio
+        int variacao_absoluta
+        decimal variacao_percentual
+        decimal taxa_crescimento
+    }
+    
+    Fact_NacionalidadePrincipal {
+        int nacionalidade_principal_id PK
+        int nacionalidade_id FK
+        int posicao_ranking
+        int populacao_2021
+        int populacao_2011
+        decimal percentagem_variacao
+    }
+    
+    Fact_DistribuicaoGeografica {
+        int distribuicao_geo_id PK
+        int localidade_id FK
+        int nacionalidade_id FK
+        int populacao_nacional_local
+        decimal concentracao_relativa
+        varchar dominio_regional
+    }
+
+    %% ============================================================
+    %% SEÇÃO 3: DOMÍNIO EDUCAÇÃO (DP-01-A)
+    %% ============================================================
+    
+    %% --- Dimensão Educacional ---
+    Dim_NivelEducacao {
+        int nivel_educacao_id PK
+        varchar nome_nivel
+        varchar categoria
+        int ordem_hierarquica
+    }
+    
+    Dim_MapeamentoNacionalidades {
+        int nacionalidade_educacao_id PK
+        varchar nome_nacionalidade_educacao
+        int nacionalidade_id_existente FK
+        varchar compatibilidade
+    }
+    
+    %% --- Fatos Educacionais ---
+    Fact_PopulacaoEducacao {
+        int populacao_educacao_id PK
+        int nacionalidade_id FK
+        int nivel_educacao_id FK
+        int populacao_total
+        varchar faixa_etaria
+        int ano_referencia
+        decimal percentual_nivel
+    }
+    
+    Fact_EstatisticasEducacao {
+        int estatistica_id PK
+        int nacionalidade_id FK
+        int populacao_total_educacao
+        int sem_educacao
+        int ensino_basico
+        int ensino_secundario
+        int ensino_superior
+        decimal percentual_sem_educacao
+        decimal percentual_ensino_superior
+        decimal percentual_ensino_basico
+        decimal percentual_ensino_secundario
+        decimal indice_educacional
+        int ano_referencia
+    }
+
+    %% ============================================================
+    %% SEÇÃO 4: DOMÍNIO LABORAL (DP-01-B)
+    %% ============================================================
+    
+    %% --- Dimensões Laborais ---
+    Dim_CondicaoEconomica {
+        int condicao_id PK
+        varchar nome_condicao
+        varchar categoria
+    }
+    
+    Dim_GrupoProfissional {
+        int grupo_prof_id PK
+        varchar codigo_grande_grupo
+        varchar descricao
+    }
+    
+    Dim_ProfissaoDigito1 {
+        int prof_digito1_id PK
+        varchar codigo_digito1
+        varchar descricao
+    }
+    
+    Dim_SetorEconomico {
+        int setor_id PK
+        varchar codigo_cae
+        varchar descricao
+        varchar agregado
+    }
+    
+    Dim_SituacaoProfissional {
+        int situacao_id PK
+        varchar nome_situacao
+    }
+    
+    Dim_FonteRendimento {
+        int fonte_id PK
+        varchar nome_fonte
+    }
+    
+    Dim_RegiaoNUTS {
+        int nuts_id PK
+        varchar codigo_nuts
+        varchar nome_regiao
+        int localidade_id FK
+    }
+    
+    %% --- Fatos Laborais ---
+    Fact_PopulacaoPorCondicao {
+        int populacao_cond_id PK
+        int populacao_id FK
+        int nacionalidade_id FK
+        int condicao_id FK
+        int quantidade
+        decimal percentual
+    }
+    
+    Fact_EmpregadosPorProfissao {
+        int emp_prof_id PK
+        int nacionalidade_id FK
+        int grupo_prof_id FK
+        int quantidade
+    }
+    
+    Fact_EmpregadosPorSetor {
+        int emp_setor_id PK
+        int nacionalidade_id FK
+        int setor_id FK
+        int quantidade
+    }
+    
+    Fact_EmpregadosPorSituacao {
+        int emp_situacao_id PK
+        int nacionalidade_id FK
+        int situacao_id FK
+        int quantidade
+    }
+    
+    Fact_EmpregadosProfSexo {
+        int emp_prof_sexo_id PK
+        int prof_digito1_id FK
+        int sexo_id FK
+        int quantidade_homens
+        int quantidade_mulheres
+    }
+    
+    Fact_EmpregadosRegiaoSetor {
+        int emp_regiao_setor_id PK
+        int nuts_id FK
+        int setor_id FK
+        int quantidade
+    }
+    
+    Fact_PopulacaoTrabalhoEscolaridade {
+        int pop_trab_esc_id PK
+        int nivel_educacao_id FK
+        int sexo_id FK
+        varchar condicao_trabalho
+        int quantidade_hm
+        int quantidade_h
+        int quantidade_m
+    }
+    
+    Fact_PopulacaoRendimentoRegiao {
+        int pop_rend_reg_id PK
+        int nuts_id FK
+        int fonte_id FK
+        int quantidade
+    }
+
+    %% ============================================================
+    %% SEÇÃO 5: DOMÍNIO AIMA - INTEGRAÇÃO (DP-02-A)
+    %% ============================================================
+    
+    %% --- Dimensões AIMA ---
+    Dim_AnoRelatorio {
+        int ano_id PK
+        int ano
+        varchar fonte
+    }
+    
+    Dim_TipoRelatorio {
+        int tipo_id PK
+        varchar tipo
+    }
+    
+    Dim_Despacho {
+        int despacho_id PK
+        varchar codigo_despacho
+        varchar descricao
+    }
+    
+    Dim_MotivoConcessao {
+        int motivo_id PK
+        varchar nome_motivo
+        varchar categoria
+    }
+    
+    Dim_NacionalidadeAIMA {
+        int nacionalidade_aima_id PK
+        varchar nome_nacionalidade_aima
+        int nacionalidade_id FK
+    }
+    
+    %% --- Fatos AIMA ---
+    Fact_ConcessoesPorNacionalidadeSexo {
+        int concessao_nac_sexo_id PK
+        int ano_id FK
+        int tipo_id FK
+        int nacionalidade_aima_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    
+    Fact_ConcessoesPorDespacho {
+        int concessao_despacho_id PK
+        int ano_id FK
+        int tipo_id FK
+        int despacho_id FK
+        int concessoes
+    }
+    
+    Fact_ConcessoesPorMotivoNacionalidade {
+        int concessao_motivo_nac_id PK
+        int ano_id FK
+        int motivo_id FK
+        int nacionalidade_aima_id FK
+        int total_motivo
+    }
+    
+    Fact_PopulacaoEstrangeiraPorNacionalidadeSexo {
+        int pop_est_nac_sexo_id PK
+        int ano_id FK
+        int tipo_id FK
+        int nacionalidade_aima_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    
+    Fact_DistribuicaoEtariaConcessoes {
+        int dist_etaria_conc_id PK
+        int ano_id FK
+        int tipo_id FK
+        int grupoetario_id FK
+        int sexo_id FK
+        int total_homens_mulheres
+    }
+    
+    Fact_EvolucaoPopulacaoEstrangeira {
+        int evolucao_pop_id PK
+        int ano_id FK
+        int titulos_residencia
+        int concessao_ap
+        int prorrogacao_vld
+        int total
+        decimal variacao_percent
+    }
+    
+    Fact_PopulacaoResidenteEtaria {
+        int pop_res_etaria_id PK
+        int ano_id FK
+        int tipo_id FK
+        int grupoetario_id FK
+        int total
+    }
+
+    %% ============================================================
+    %% RELACIONAMENTOS: DIMENSÕES BASE → FATOS
+    %% ============================================================
+    
+    %% --- População Base ---
+    Dim_PopulacaoResidente ||--o{ Fact_PopulacaoPorNacionalidade : "1:N"
+    Dim_PopulacaoResidente ||--o{ Fact_PopulacaoPorLocalidade : "1:N"
+    Dim_PopulacaoResidente ||--o{ Fact_PopulacaoPorGrupoEtario : "1:N"
+    Dim_PopulacaoResidente ||--o{ Fact_PopulacaoPorCondicao : "1:N"
+    
+    %% --- Nacionalidade ---
+    Dim_Nacionalidade ||--o{ Fact_PopulacaoPorNacionalidade : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_PopulacaoPorNacionalidadeSexo : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_EvolucaoTemporal : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_NacionalidadePrincipal : "1:1"
+    Dim_Nacionalidade ||--o{ Fact_DistribuicaoGeografica : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_PopulacaoPorLocalidadeNacionalidade : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_PopulacaoEducacao : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_EstatisticasEducacao : "1:1"
+    Dim_Nacionalidade ||--o{ Dim_MapeamentoNacionalidades : "1:1"
+    Dim_Nacionalidade ||--o{ Fact_PopulacaoPorCondicao : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_EmpregadosPorProfissao : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_EmpregadosPorSetor : "1:N"
+    Dim_Nacionalidade ||--o{ Fact_EmpregadosPorSituacao : "1:N"
+    Dim_Nacionalidade ||--o{ Dim_NacionalidadeAIMA : "1:N"
+    
+    %% --- Localidade ---
+    Dim_Localidade ||--o{ Fact_PopulacaoPorLocalidade : "1:N"
+    Dim_Localidade ||--o{ Fact_DistribuicaoGeografica : "1:N"
+    Dim_Localidade ||--o{ Dim_RegiaoNUTS : "1:N"
+    
+    %% --- Sexo ---
+    Dim_Sexo ||--o{ Fact_PopulacaoPorNacionalidadeSexo : "1:N"
+    Dim_Sexo ||--o{ Fact_EmpregadosProfSexo : "1:N"
+    Dim_Sexo ||--o{ Fact_PopulacaoTrabalhoEscolaridade : "1:N"
+    Dim_Sexo ||--o{ Fact_ConcessoesPorNacionalidadeSexo : "1:N"
+    Dim_Sexo ||--o{ Fact_PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    Dim_Sexo ||--o{ Fact_DistribuicaoEtariaConcessoes : "1:N"
+    
+    %% --- Grupo Etário ---
+    Dim_GrupoEtario ||--o{ Fact_PopulacaoPorGrupoEtario : "1:N"
+    Dim_GrupoEtario ||--o{ Fact_DistribuicaoEtariaConcessoes : "1:N"
+    Dim_GrupoEtario ||--o{ Fact_PopulacaoResidenteEtaria : "1:N"
+    
+    %% --- Fatos Compostos ---
+    Fact_PopulacaoPorLocalidade ||--o{ Fact_PopulacaoPorLocalidadeNacionalidade : "1:N"
+    
+    %% ============================================================
+    %% RELACIONAMENTOS: EDUCAÇÃO
+    %% ============================================================
+    
+    Dim_NivelEducacao ||--o{ Fact_PopulacaoEducacao : "1:N"
+    Dim_NivelEducacao ||--o{ Fact_PopulacaoTrabalhoEscolaridade : "1:N"
+    Dim_MapeamentoNacionalidades }o--|| Dim_Nacionalidade : "N:1"
+
+    %% ============================================================
+    %% RELACIONAMENTOS: LABORAL
+    %% ============================================================
+    
+    Dim_CondicaoEconomica ||--o{ Fact_PopulacaoPorCondicao : "1:N"
+    Dim_GrupoProfissional ||--o{ Fact_EmpregadosPorProfissao : "1:N"
+    Dim_ProfissaoDigito1 ||--o{ Fact_EmpregadosProfSexo : "1:N"
+    Dim_SetorEconomico ||--o{ Fact_EmpregadosPorSetor : "1:N"
+    Dim_SetorEconomico ||--o{ Fact_EmpregadosRegiaoSetor : "1:N"
+    Dim_SituacaoProfissional ||--o{ Fact_EmpregadosPorSituacao : "1:N"
+    Dim_FonteRendimento ||--o{ Fact_PopulacaoRendimentoRegiao : "1:N"
+    Dim_RegiaoNUTS ||--o{ Fact_EmpregadosRegiaoSetor : "1:N"
+    Dim_RegiaoNUTS ||--o{ Fact_PopulacaoRendimentoRegiao : "1:N"
+
+    %% ============================================================
+    %% RELACIONAMENTOS: AIMA
+    %% ============================================================
+    
+    Dim_AnoRelatorio ||--o{ Fact_ConcessoesPorNacionalidadeSexo : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_ConcessoesPorDespacho : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_ConcessoesPorMotivoNacionalidade : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_DistribuicaoEtariaConcessoes : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_EvolucaoPopulacaoEstrangeira : "1:N"
+    Dim_AnoRelatorio ||--o{ Fact_PopulacaoResidenteEtaria : "1:N"
+    Dim_AnoRelatorio ||--o{ Dim_PopulacaoResidente : "N:1"
+    
+    Dim_TipoRelatorio ||--o{ Fact_ConcessoesPorNacionalidadeSexo : "1:N"
+    Dim_TipoRelatorio ||--o{ Fact_ConcessoesPorDespacho : "1:N"
+    Dim_TipoRelatorio ||--o{ Fact_PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    Dim_TipoRelatorio ||--o{ Fact_DistribuicaoEtariaConcessoes : "1:N"
+    Dim_TipoRelatorio ||--o{ Fact_PopulacaoResidenteEtaria : "1:N"
+    
+    Dim_Despacho ||--o{ Fact_ConcessoesPorDespacho : "1:N"
+    Dim_MotivoConcessao ||--o{ Fact_ConcessoesPorMotivoNacionalidade : "1:N"
+    
+    Dim_NacionalidadeAIMA ||--o{ Fact_ConcessoesPorNacionalidadeSexo : "1:N"
+    Dim_NacionalidadeAIMA ||--o{ Fact_PopulacaoEstrangeiraPorNacionalidadeSexo : "1:N"
+    Dim_NacionalidadeAIMA ||--o{ Fact_ConcessoesPorMotivoNacionalidade : "1:N"
+
+    %% ============================================================
+    %% INTEGRAÇÃO CROSS-DOMÍNIO (Laboral ↔ AIMA)
+    %% ============================================================
+    
+    Dim_MotivoConcessao ||--o{ Dim_CondicaoEconomica : "N:M"
+    Dim_MotivoConcessao ||--o{ Dim_SetorEconomico : "N:M"
+
+    %% ============================================================
+    %% METADADOS DO MODELO
+    %% ============================================================
+    %% Total de Entidades: 44
+    %% - Dimensões (Dim_): 19 tabelas
+    %% - Fatos (Fact_): 25 tabelas
+    %%
+    %% Domínios:
+    %% - Base (Compartilhado): 5 Dim + 8 Fact = 13 tabelas
+    %% - Educação (DP-01-A): 2 Dim + 2 Fact = 4 tabelas
+    %% - Laboral (DP-01-B): 7 Dim + 8 Fact = 15 tabelas
+    %% - AIMA (DP-02-A): 5 Dim + 7 Fact = 12 tabelas
+    %%
+    %% Normalização: 3FN/BCNF
+    %% Integridade Referencial: Validação completa de FKs
+    %% Compatibilidade: PostgreSQL, MySQL, SQL Server, Oracle
+    %% ============================================================
