@@ -86,9 +86,65 @@ Foram analisados os seguintes indicadores:
 - Motivos de concessão de títulos de residência (atividade profissional, reagrupamento familiar, estudo, AR CPLP)  
 - Evolução temporal de fluxos migratórios (2020-2024)
 
-## **2.4 Período Analisado** {#2.4-período-analisado}
+## **2.4 Processamento e Tratamento de Dados** {#2.4-processamento-e-tratamento-de-dados}
 
-A análise abrange primariamente o período de 2011 a 2024, com enfoque particular na comparação entre os Censos 2011 e 2021, complementada com dados administrativos recentes da AIMA (2020-2024). 
+Para garantir a qualidade, integridade e reprodutibilidade da análise, os dados brutos provenientes das fontes oficiais foram submetidos a um processo estruturado de ETL (Extract, Transform, Load) através de três pipelines modulares desenvolvidos em Python:
+
+### **2.4.1 Pipeline ETL de Dados Educacionais**
+- **Script:** `ETL_EDUCACAO_CONSOLIDADO_v3.py`
+- **Fonte:** INE Censos 2011 e 2021
+- **Output:** 15 arquivos CSV (7 dimensões + 8 tabelas de fato)
+- **Principais transformações:**
+  - Normalização de nomes de nacionalidades
+  - Agregação de níveis educacionais (Sem educação, Ensino Básico, Secundário, Superior)
+  - Cálculo de percentuais por nacionalidade
+  - Estruturação em modelo Star Schema
+
+### **2.4.2 Pipeline ETL de Dados Laborais**
+- **Script:** `ETL_LABORAL_CONSOLIDADO.py`
+- **Fonte:** INE Censos 2021 - População Estrangeira
+- **Output:** 11 arquivos CSV (7 dimensões + 4 tabelas de fato)
+- **Principais transformações:**
+  - Classificação por setor económico (CAE Rev.3 - 21 setores A-U)
+  - Distribuição por grupo profissional (CNP - 10 grandes grupos)
+  - Condição económica (Ativa/Inativa) e situação profissional
+  - Integração com dimensões educacionais
+
+### **2.4.3 Pipeline ETL de Dados AIMA/SEF**
+- **Script:** `ETL_AIMA_CONSOLIDADO.py`
+- **Fonte:** RIFA 2020-2022 e RMA 2023-2024
+- **Output:** 14 arquivos CSV (7 dimensões + 7 tabelas de fato)
+- **Principais transformações:**
+  - Padronização de motivos de concessão de residência
+  - Agregação temporal (2020-2024)
+  - Distribuição etária e por nacionalidade
+  - Harmonização metodológica RIFA/RMA
+
+### **2.4.4 Modelo de Dados Unificado**
+
+Os três pipelines ETL produzem dados estruturados segundo um **Star Schema Unificado**, documentado no diagrama ER disponível em:
+- **Arquivo:** `3️⃣ Data Preparation/Diagrama-ER/diagrama-er-unificado-star-schema.mermaid`
+- **Documentação:** `README_DIAGRAMA_ER_UNIFICADO.md`
+
+**Estrutura do modelo:**
+- **19 tabelas de dimensões** (Dim_Nacionalidade, Dim_SetorEconomico, Dim_NivelEducacao, etc.)
+- **25 tabelas de fato** (Fact_EstatisticasEducacao, Fact_EmpregadosPorSetor, Fact_ConcessoesPorMotivo, etc.)
+- **Total:** 44 tabelas interligadas por chaves primárias e estrangeiras
+
+**Benefícios da abordagem ETL:**
+1. **Reprodutibilidade:** Todos os dados podem ser regenerados executando os scripts
+2. **Auditabilidade:** Cada transformação está documentada no código-fonte
+3. **Integridade Referencial:** Chaves estrangeiras garantem consistência entre tabelas
+4. **Rastreabilidade:** Cada dado pode ser vinculado à sua fonte original
+
+**Localização dos outputs:**
+- `3️⃣ Data Preparation/scripts/output/ETL_EDUCACAO_CONSOLIDADO_2011_2021/`
+- `3️⃣ Data Preparation/scripts/output/ETL_LABORAL_CONSOLIDADO_2021/`
+- `3️⃣ Data Preparation/scripts/output/ETL_AIMA_CONSOLIDADO_2020-2024/`
+
+## **2.5 Período Analisado** {#2.5-período-analisado}
+
+A análise abrange primariamente o período de 2011 a 2024, com enfoque particular na comparação entre os Censos 2011 e 2021, complementada com dados administrativos recentes da AIMA (2020-2024).
 
 # **3\. ANÁLISE DESCRITIVA DOS DADOS** {#3.-análise-descritiva-dos-dados}
 
@@ -186,18 +242,16 @@ O Brasil, a nacionalidade mais representativa, apresenta um perfil educacional i
 
 **Tabela 3.4.1: Perfil Educacional por Nacionalidade Selecionada (2021)**
 
-| Nacionalidade | População Total | Sem Educação (%) | Ensino Básico (%) | Ensino Secundário (%) | Ensino Superior (%) | Índice Educacional\* |
-| :---- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Itália | 9405 | 6,60% | 11,46% | 28,19% | 53,75% | 1,79 |
-| França | 11339 | 11,66% | 18,49% | 31,42% | 38,43% | 1,97 |
-| Reino Unido | 10052 | 17,09% | 14,56% | 40,56% | 27,79% | 1,78 |
-| Brasil | 165683 | 6,10% | 23,77% | 45,38% | 24,55% | 1,88 |
-| Angola | 24135 | 6,01% | 33,65% | 39,37% | 20,97% | 1,75 |
-| Cabo Verde | 22113 | 7,55% | 48,82% | 35,26% | 8,37% | 1,44 |
-| Nepal | 12215 | 17,94% | 25,96% | 42,47% | 13,63% | 1,52 |
-| Guiné-Bissau | 13184 | 7,74% | 42,19% | 38,74% | 11,32% | 1,54 |
-
-\*Índice Educacional: métrica calculada atribuindo pesos progressivos aos níveis (% sem\_edu × 0.0 \+ % básico × 2.5 \+ % secundário × 6.0 \+ % superior × 10.0) / 100).
+| Nacionalidade | População Total | Sem Educação (%) | Ensino Básico (%) | Ensino Secundário (%) | Ensino Superior (%) |
+| :---- | :---: | :---: | :---: | :---: | :---: |
+| Itália | 9.405 | 6,60% | 11,46% | 28,19% | 53,75% |
+| França | 11.339 | 11,66% | 18,49% | 31,42% | 38,43% |
+| Reino Unido | 10.052 | 17,09% | 14,56% | 40,56% | 27,79% |
+| Brasil | 165.683 | 6,10% | 23,77% | 45,38% | 24,55% |
+| Angola | 24.135 | 6,01% | 33,65% | 39,37% | 20,97% |
+| Cabo Verde | 22.113 | 7,55% | 48,82% | 35,26% | 8,37% |
+| Nepal | 12.215 | 17,94% | 25,96% | 42,47% | 13,63% |
+| Guiné-Bissau | 13.184 | 7,74% | 42,19% | 38,74% | 11,32% |
 
 *Fonte: Elaboração própria com base nos dados do INE \- Censos 2021\.*
 
@@ -492,4 +546,4 @@ Estes resultados, baseados estritamente em dados oficiais do INE e AIMA/SEF, ofe
 
 ---
 
-**Nota metodológica:** Este relatório foi elaborado no âmbito do Concurso de Pesquisa Prepara Portugal 2025, cumprindo rigorosamente os critérios de utilização exclusiva de fontes oficiais portuguesas e de apresentação factual e objetiva de dados. Todos os números, percentagens e informações apresentadas correspondem exatamente aos dados fornecidos pelas fontes oficiais citadas, sem interpretações subjetivas ou extrapolações.  
+**Nota metodológica:** Este relatório foi elaborado no âmbito do Concurso de Pesquisa Prepara Portugal 2025, cumprindo rigorosamente os critérios de utilização exclusiva de fontes oficiais portuguesas e de apresentação factual e objetiva de dados. Todos os números, percentagens e informações apresentadas correspondem exatamente aos dados fornecidos pelas fontes oficiais citadas, sem interpretações subjetivas ou extrapolações.
