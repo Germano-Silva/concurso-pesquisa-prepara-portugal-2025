@@ -79,19 +79,20 @@ class Config:
     FONTE_DADOS = "INE Censos 2011 + 2021"
     
     # Mapeamento de nacionalidades 2011 -> 2021
+    # Chaves = nomes EXATOS dos arquivos CSV renomeados (sem .csv e sem acentos)
     MAPEAMENTO_NACIONALIDADES = {
         'Angola': 'Angola',
         'Brasil': 'Brasil',
         'Cabo Verde': 'Cabo Verde',
+        'China': 'China',  # Arquivo renomeado de "República Popular da China"
         'Espanha': 'Espanha',
-        'Franca': 'França',
-        'Guine-Bissau': 'Guiné-Bissau',
+        'Franca': 'França',  # Arquivo sem cedilha
+        'Guine-Bissau': 'Guiné-Bissau',  # Arquivo sem acento
         'Reino Unido': 'Reino Unido',
-        'Republica da Moldavia': 'República da Moldávia',
-        'Republica Popular da China': 'China',
+        'Republica da Moldavia': 'República da Moldávia',  # Arquivo sem acentos
         'Romenia': 'Roménia',
         'Sao tome e Principe': 'São Tomé e Príncipe',
-        'Ucrania': 'Ucrânia'
+        'Ucrania': 'Ucrânia'  # Arquivo sem acento
     }
     
     # Mapeamento de niveis educacionais
@@ -171,6 +172,8 @@ class Extrator2011:
         for nome_arquivo, df in self.dados_brutos.items():
             # Mapear nome do arquivo para nacionalidade padronizada
             nome_padronizado = Config.MAPEAMENTO_NACIONALIDADES.get(nome_arquivo, nome_arquivo)
+            if nome_arquivo != nome_padronizado:
+                self.logger.info(f"Mapeamento: '{nome_arquivo}' -> '{nome_padronizado}'")
             
             # Filtrar linhas de nivel de ensino (CORRIGIDO: aceita NÍVEL com ou sem acento)
             df_ensino = df[df['Categoria'].str.contains(
@@ -406,10 +409,15 @@ class ConsolidadorTemporal:
         else:
             stats_2011 = pd.DataFrame()
         
-        # Dados 2021 ja estao prontos - remover ID se existir
+        # Dados 2021 ja estao prontos - remover ID e indice_educacional se existirem
         stats_2021 = dados_2021_df.copy()
+        colunas_remover = []
         if 'estatistica_id' in stats_2021.columns:
-            stats_2021 = stats_2021.drop(columns=['estatistica_id'])
+            colunas_remover.append('estatistica_id')
+        if 'indice_educacional' in stats_2021.columns:
+            colunas_remover.append('indice_educacional')
+        if colunas_remover:
+            stats_2021 = stats_2021.drop(columns=colunas_remover)
         
         # Consolidar
         fact_stats = pd.concat([stats_2011, stats_2021], ignore_index=True)
@@ -426,10 +434,15 @@ class ConsolidadorTemporal:
         stats_list = []
         
         # Agrupar por nacionalidade
-        for nac_nome in dados_2011_df['nacionalidade'].unique():
+        nacs_unicas = dados_2011_df['nacionalidade'].unique()
+        self.logger.info(f"Processando estatisticas para {len(nacs_unicas)} nacionalidades de 2011...")
+        self.logger.info(f"Nacionalidades unicas no DataFrame: {sorted(nacs_unicas)}")
+        for nac_nome in nacs_unicas:
             nac_id = self._obter_nacionalidade_id(nac_nome, mapa_nacs)
             if pd.isna(nac_id):
+                self.logger.info(f"  IGNORADO: '{nac_nome}' - ID nao encontrado")
                 continue
+            self.logger.info(f"  Processando: '{nac_nome}' -> ID {int(nac_id)}")
             
             dados_nac = dados_2011_df[dados_2011_df['nacionalidade'] == nac_nome]
             
@@ -447,12 +460,8 @@ class ConsolidadorTemporal:
                 perc_basico = (ensino_basico / total_pop) * 100
                 perc_sec = (ensino_secundario / total_pop) * 100
                 perc_sup = (ensino_superior / total_pop) * 100
-                
-                # Índice educacional padronizado (escala 0-10)
-                # Fórmula: (% sem_edu * 0.0 + % básico * 2.5 + % secund * 6.0 + % superior * 10.0) / 100
-                indice = (perc_sem * 0.0 + perc_basico * 2.5 + perc_sec * 6.0 + perc_sup * 10.0) / 100
             else:
-                perc_sem = perc_basico = perc_sec = perc_sup = indice = 0.0
+                perc_sem = perc_basico = perc_sec = perc_sup = 0.0
             
             stats_list.append({
                 'nacionalidade_id': int(nac_id),
@@ -465,7 +474,6 @@ class ConsolidadorTemporal:
                 'percentual_ensino_basico': round(perc_basico, 2),
                 'percentual_ensino_secundario': round(perc_sec, 2),
                 'percentual_ensino_superior': round(perc_sup, 2),
-                'indice_educacional': round(indice, 2),
                 'ano_referencia': 2011
             })
         
@@ -474,11 +482,19 @@ class ConsolidadorTemporal:
     def _obter_nacionalidade_id(self, nome_nac, mapa_nacs):
         """Mapeia nome de nacionalidade para ID"""
         try:
-            nac_row = mapa_nacs[mapa_nacs['nome_nacionalidade'] == nome_nac]
+            # Limpar espaços e normalizar
+            nome_busca = str(nome_nac).strip()
+            # Buscar com comparação exata
+            nac_row = mapa_nacs[mapa_nacs['nome_nacionalidade'].str.strip() == nome_busca]
             if not nac_row.empty:
                 return nac_row.iloc[0]['nacionalidade_id']
-        except:
-            pass
+            # Se não encontrou, tentar busca case-insensitive
+            nac_row = mapa_nacs[mapa_nacs['nome_nacionalidade'].str.strip().str.lower() == nome_busca.lower()]
+            if not nac_row.empty:
+                self.logger.info(f"  ENCONTRADO com busca case-insensitive: '{nome_busca}'")
+                return nac_row.iloc[0]['nacionalidade_id']
+        except Exception as e:
+            self.logger.info(f"  ERRO ao buscar '{nome_nac}': {e}")
         return None
 
 

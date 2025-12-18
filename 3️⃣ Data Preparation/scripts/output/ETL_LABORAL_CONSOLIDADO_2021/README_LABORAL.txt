@@ -2,7 +2,7 @@
 ========================================================================
 ETL LABORAL CONSOLIDADO - DATASET CENSOS 2021
 ========================================================================
-Data de Geracao: 2025-12-16 12:03:37
+Data de Geracao: 2025-12-18 22:39:57
 Versao: 1.0-LABORAL
 Fonte: INE Censos 2021 - Populacao Estrangeira
 Modelo: Star Schema Unificado
@@ -11,7 +11,7 @@ Modelo: Star Schema Unificado
 DIMENSOES (7 tabelas)
 ========================================================================
 
-Dim_Nacionalidade.csv - 19 registros
+Dim_Nacionalidade.csv - 20 registros
 Dim_Sexo.csv - 3 registros
 Dim_PopulacaoResidente.csv - 2 registros
 Dim_CondicaoEconomica.csv - 11 registros

@@ -2,7 +2,7 @@
 ========================================================================
 ETL EDUCACAO CONSOLIDADO - DATASET TEMPORAL 2011 + 2021
 ========================================================================
-Data de Geracao: 2025-12-16 22:27:59
+Data de Geracao: 2025-12-18 22:52:56
 Versao: 3.0-CONSOLIDADO-TEMPORAL
 Fonte: INE Censos 2011 + 2021
 Modelo: Star Schema Unificado
@@ -11,7 +11,7 @@ Modelo: Star Schema Unificado
 DIMENSOES (7 tabelas)
 ========================================================================
 
-Dim_Nacionalidade.csv - 19 registros
+Dim_Nacionalidade.csv - 20 registros
 Dim_Sexo.csv - 3 registros
 Dim_Localidade.csv - 344 registros
 Dim_GrupoEtario.csv - 4 registros
@@ -29,8 +29,8 @@ Fact_PopulacaoPorGrupoEtario.csv - 76 registros
 Fact_EvolucaoTemporal.csv - 19 registros
 Fact_NacionalidadePrincipal.csv - 15 registros
 Fact_DistribuicaoGeografica.csv - 4053 registros
-Fact_PopulacaoEducacao.csv - 161 registros
-Fact_EstatisticasEducacao.csv - 26 registros
+Fact_PopulacaoEducacao.csv - 181 registros
+Fact_EstatisticasEducacao.csv - 31 registros
 
 ========================================================================
 ESTRUTURA DOS DADOS
