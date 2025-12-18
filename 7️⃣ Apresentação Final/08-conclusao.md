@@ -1,0 +1,21 @@
+# **8. CONCLUSÃO**
+
+O presente estudo descritivo permitiu delinear um retrato objetivo da imigração em Portugal, com enfoque no perfil sócio-profissional e educacional da população estrangeira, no período compreendido entre 2011 e 2024\. De forma sintética, conclui-se que:
+
+1. **Crescimento demográfico sustentado:** A população estrangeira residente em Portugal registou uma tendência de crescimento acentuado no período em análise, com um aumento de 37,4% entre os Censos 2011 e 2021 (de 394.496 para 542.165 residentes), acelerando significativamente no período pós-2021 e atingindo 1.543.697 residentes em 2024, segundo dados administrativos da AIMA.
+
+2. **Consolidação de comunidades específicas:** A comunidade brasileira consolidou-se como a mais representativa, com 199.810 residentes em 2021 (36,9% do total de estrangeiros), seguida por Angola (5,8%), Cabo Verde (4,5%) e Reino Unido (4,4%). Simultaneamente, observaram-se taxas de crescimento excecionais em nacionalidades asiáticas, com destaque para o Nepal (+1.278,9% entre 2011 e 2021).
+
+3. **Perfil jovem e economicamente ativo:** A população estrangeira caracteriza-se por uma forte preponderância de indivíduos em idade potencialmente ativa (85,5% em 2024), com destaque para o grupo etário dos 18-34 anos, evidenciando o caráter laboral predominante da imigração em Portugal.
+
+4. **Heterogeneidade educacional:** O nível de escolaridade da população estrangeira apresenta variações significativas por nacionalidade. Enquanto países europeus como Itália (53,75% com ensino superior), França (46,2%) e o Reino Unido (42,8%) apresentam elevada qualificação, nacionalidades asiáticas e africanas evidenciam percentuais mais baixos, com o Nepal a registar 17,9% de população sem educação formal.
+
+5. **Predomínio de motivos laborais e familiares:** A atividade profissional e o reagrupamento familiar constituem os principais motivos de concessão de títulos de residência. A introdução da AR CPLP em 2023 representou uma mudança estrutural, constituindo 45,3% das novas concessões neste ano, refletindo a regularização de trabalhadores já presentes no território.
+
+6. **Padrões distintos por nacionalidade:** A análise dos motivos de concessão revela dinâmicas diferenciadas. As nacionalidades do subcontinente indiano apresentam preponderância esmagadora de títulos por atividade profissional (79,8% para Bangladesh, 74,3% para Índia), enquanto comunidades lusófonas apresentam distribuição mais equilibrada entre motivos laborais e familiares.
+
+7. **Concentração setorial com perfis diferenciados:** A inserção laboral da população estrangeira concentra-se significativamente em setores específicos, com 58,07% dos trabalhadores imigrantes empregados em somente 5 setores (Comércio, Alojamento e restauração, Construção, Indústrias transformadoras e Atividades administrativas). Observa-se uma segmentação clara do mercado de trabalho: setores de alta qualificação (Informação e comunicação, Consultoria científica) apresentam predominância de nacionalidades europeias com ensino superior (40-45%), enquanto setores de menor qualificação (Agricultura, Construção, Alojamento) concentram trabalhadores com escolaridade básica (48-56%), predominantemente de origem lusófona e asiática.
+
+8. **Evolução educacional positiva:** A comparação temporal entre 2011 e 2021 revela tendências de melhoria nos níveis educacionais das principais comunidades imigrantes. Cabo Verde e Angola registaram progressos significativos na redução da população sem escolaridade básica e aumento da representação de ensino superior, embora comunidades como Guiné-Bissau (11,8% com ensino superior) persistam com desafios educacionais estruturais que condicionam a inserção profissional.
+
+Estes resultados, baseados estritamente em dados oficiais do INE e AIMA/SEF, oferecem uma base factual sólida para a compreensão do fenómeno migratório contemporâneo em Portugal, evidenciando tanto o caráter económico da imigração quanto a diversidade de perfis e trajetórias que compõem o panorama migratório nacional. A análise revela uma clara relação entre o nível educacional e a inserção no mercado de trabalho, com padrões de segmentação setorial que refletem tanto as qualificações das diferentes comunidades quanto às características estruturais da procura de mão de obra em Portugal.
