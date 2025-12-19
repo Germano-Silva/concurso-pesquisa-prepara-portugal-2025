@@ -4,7 +4,7 @@
 
 Para compreender de forma sistemática e fundamentada esta realidade complexa e dinâmica, o presente estudo estrutura a sua investigação em torno de quatro perguntas fundamentais, que visam mapear e descrever, de forma precisa e baseada em dados oficiais, as características em torno do perfil socioeconômico e educacional do imigrante:
 
-1. Qual a evolução, nos últimos 5-10 anos, do nível de escolaridade da população estrangeira residente em Portugal? (Foca na descrição da qualificação do imigrante ao longo do tempo).  
+1. Qual a distribuição do nível de escolaridade da população estrangeira residente em Portugal? (Foca na descrição da qualificação atual do imigrante).  
 2. Como se distribui a população imigrante ativa por setores de atividade económica (ex: construção, hotelaria, TI, saúde) e como essa distribuição se compara com a população nacional? (Descreve a inserção setorial).  
 3. Qual é o perfil educacional predominante (ensino básico, secundário, superior) dentro dos principais setores que absorvem mão de obra imigrante? (Conecta educação e trabalho de forma descritiva).  
 4. Existem diferenças significativas no nível educacional médio entre as nacionalidades mais representativas da imigração em Portugal? (Descreve a heterogeneidade do fenómeno).

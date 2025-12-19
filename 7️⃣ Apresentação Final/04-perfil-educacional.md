@@ -82,7 +82,7 @@ A Tabela 14 apresenta a evolução do nível de escolaridade da população estr
 
 **4.2.1. Variação Percentual do Nível Educacional (2011-2021)**  
 A matriz de variação apresentada (Tabela 16\) e o gráfico E calculam a diferença em pontos percentuais (2021 menos 2011\) para cada nível educacional e nacionalidade. Esta análise permite identificar rapidamente as tendências de qualificação (aumento da percentagem em níveis superiores) ou desqualificação (aumento da percentagem em níveis básicos) no grupo de imigrantes, indicando onde os perfis se tornaram mais ou menos escolarizados ao longo da década.  
-Os dados demonstram uma clara tendência de aumento de captação de mão de obra mais qualificada nos anos mais recentes. 
+Os dados sugerem uma tendência observável de aumento na proporção de trabalhadores com maior qualificação nos anos mais recentes, embora esta variação possa refletir mudanças na composição demográfica da população estrangeira residente.
 
 **Tabela 16: Evolução do nível educacional da população imigrante (2011 vs 2021\)**
 
